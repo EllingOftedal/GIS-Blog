@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fantsy Map to a vector polygon</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Blog Post Title</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>My Blog Post Title</h2>
+          <p>Published on March 6st, 2023</p>
+        </header>
+        <section>
+          <p>
+          I have for a D&D campaing made a fantasy map in a none GIS map software, which makes it easy to make good looking fantasy maps.
+          However I now wanted to import the map in QGIS to create vector data out of my .jpg fantasy map.
+          </p>
+          
+          <img src="images/kaldonia.jpg" alt="kaldonia">
+          <p>
+          I used a custom plugin in QGIS ('Freehand raster georeference') to re-scale the image based on the hex grid scale I have on the map.
+          As each grid is about 39km I used the CRS WGS 1984 Mercator and placed the map at equator to prevent as much distortion as possible
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Blog Name</p>
+    </footer>
+  </body>
+</html>
