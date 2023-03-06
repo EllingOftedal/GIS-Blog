@@ -37,12 +37,9 @@ title: Elling's GIS Blog
     <footer>
       &copy; 2023 Elling's GIS Blog
     </footer>
+    <script>
+      var footer = document.querySelector('.Footer');
+      footer.parentNode.removeChild(footer);
+    </script>
   </body>
 </html>
-
-window.addEventListener('DOMContentLoaded', function() {
-  var footer = document.querySelector('.Footer');
-  if (footer) {
-    footer.parentNode.removeChild(footer);
-  }
-});
