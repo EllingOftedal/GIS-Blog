@@ -40,8 +40,9 @@ title: Elling's GIS Blog
   </body>
 </html>
 
-<script>
-  window.onload = function() {
-    document.querySelector('.Box-footer').style.display = 'none';
+window.addEventListener('DOMContentLoaded', function() {
+  var footer = document.querySelector('.Footer');
+  if (footer) {
+    footer.parentNode.removeChild(footer);
   }
-</script>
+});
