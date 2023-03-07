@@ -25,6 +25,11 @@ nav li a {
   text-decoration: none;
 }
 
+a {
+  color: #FFFFFF;
+}
+
+
 main {
   padding: 1em;
 }
