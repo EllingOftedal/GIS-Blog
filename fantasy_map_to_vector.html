@@ -77,9 +77,18 @@
           <br>
           <p>
            The next step is to create polygon out of the classified NDWI raster. To do this I could use the "Polygonize (Raster to Vector)" tool
-           in QGIS. 
+           in QGIS. Using symbology I quickly classified the 0 and 1 on the water bodies as blue and light parchment to view the result. The output given the initial image looks pretty good. It has a lot of artifacts from the raster noise which will
+           almost be impossible to not have to clean manually since there is a lot of labels with blue text or features with blue colour.
+           However doing some vector cleaning and editing from this output compared to having to having to manually draw this polygon is still 
+           a huge time saver.
           </p>
           <img src="images/NDWI_vector.png" alt="NDWI_vector">
+          <i>The vector result from the process</i>    
+          <p>
+           <br>
+          In the end this was a fun small project, and perhaps in the future I will return to it and clean up the polygon, 
+          and add more features such as creating a DEM (Digital Elevation Model). But for anyone who have a image file they consider
+          to import into GIS to work with as vector data then I hope this can motivate you to give it a try.
           <p>
         </section>
       </article>
