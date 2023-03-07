@@ -1,12 +1,15 @@
+<!-- 
+Colour examples: Light Grey: #2f2f2f, grey: #262626 dark grey: #222222 orange: #FFA500
+-->
 body {
-  background-color: #2f2f2f;
+  background-color: #262626;
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
 }
 
 header {
   background-color: #222222;
-  color: #FFFFFF;
+  color: #FFA500;
   padding: 1em;
 }
 
@@ -31,8 +34,7 @@ main {
 }
 
 footer {
-  background-color: #222222;
-  color: #FFFFFF;
+  color: #FFA500;
   padding: 1em;
   text-align: center;
 }
