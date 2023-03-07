@@ -37,7 +37,8 @@
           I used a custom plugin in QGIS ('Freehand raster georeference') to re-scale the image based on the hex grid scale I have on the map.
           As each grid is about 39km I used the CRS WGS 1984 Mercator and placed the map at equator to prevent as much distortion as possible
           </p>
-
+          <br>               
+          <h2>Creating a NDWI of a jpg image</h2>
           <p>
           After importing the raster image in the correct scale I wanted to create a vector polygon of the landmass of my continent.
           Using knowledge from remote sensing on how to calculate a NDWI (Normalized Difference Water Index) calulated as: (G-NIR)/(G+NIR).
@@ -47,7 +48,7 @@
           ((Red + Green) - Blue) / ((Red + Green) + Blue)
           </p>
           <br>
-          <p>This is my formula:</p>
+          <p>This is the formula used in raster calculator:</p>
             <div style="background-color: #333333; text-align: center; padding: 10px;">
           <p style="font-size: 18px; font-weight: bold;">((Red + Green) - Blue) / ((Red + Green) + Blue)</p>
             </div>
