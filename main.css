@@ -18,6 +18,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 1em;
+  text-decoration: underline;
 }
 
 nav li a {
