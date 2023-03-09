@@ -20,7 +20,9 @@ var risk = document.getElementById('risk');
 form.addEventListener('submit', function(event) {
 	event.preventDefault();
 	var address = document.getElementById('address').value;
+	console.log(address); // add this line to check if address is being retrieved correctly
 	var match = data.find(row => row.Address === address);
+	console.log(match); // add this line to check if match is being found correctly
 	if (match) {
 		risk.textContent = 'Risk: ' + match.Risk;
 		risk.style.display = 'block';
