@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event) {
 	// Remove extra whitespace characters from the input address
 	address = address.replace(/ {2,}/g, ' ').trim();
 	// Remove commas from the input address
-	address = address.replace(/,/g, '');
+	address = address.replace(/,\s*|\s*,/g, '');
 	// Convert to lowercase
 	address = address.toLowerCase();
 	var match = data.find(row => {
