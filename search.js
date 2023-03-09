@@ -9,6 +9,7 @@ fetch(url)
 	.then(response => response.text())
 	.then(text => {
 		data = Papa.parse(text, { header: true }).data;
+	        console.log(data); // add this line to check if data is loaded correctly
 	});
 
 // Get references to the form and the risk element
