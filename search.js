@@ -11,7 +11,7 @@ fetch(url)
 		data = Papa.parse(text, { header: true }).data;
 	        console.log(data); // add this line to check if data is loaded correctly
 	});
-
+console.log('JavaScript file loaded.');
 // Get references to the form and the risk element
 var form = document.querySelector('form');
 var risk = document.getElementById('risk');
