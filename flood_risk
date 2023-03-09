@@ -23,18 +23,15 @@
     <main>
       <article>
         <header>
-          <h2>Fantsy Map to a vector polygon</h2>
-          <p>Published on March 6st, 2023</p>
+          <h2>Flood risk in Oslo</h2>
+          <p>Published on March 9th, 2023</p>
         </header>
         <section>
           <p>
-          In the table top game Dungeons & Dragons I have made a fantasy map for my home-made world I have created. This map is 
-          however a .jpg image I have made in a none GIS software. I have recently wondered if I should import the map into QGIS.
-          The map s at a pretty large scale and at a fine detail so instead of having to manually recreate it with manually placing vertex's,
-          I wanted to find a easier method.
+          I wanted to make a flood risk map for Oslo, to start with I used this DEM file with 1m resolution over the Oslo area.
           </p>          
           <img src="images/flood_risk/oslo_DEM.png" alt="DEM"> 
-          <i>My fantasy D&D map</i>
+          <i>A DEM (Digital Elevation Model) over Oslo area</i>
           <p>
         </section>
       </article>
