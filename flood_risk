@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+  <body>
+    <header>
+      <h3>Elling's GIS Blog</h3>
+      <nav>
+        <ul>
+          <li><a href="index.html">Back to main page:</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>Fantsy Map to a vector polygon</h2>
+          <p>Published on March 6st, 2023</p>
+        </header>
+        <section>
+          <p>
+          In the table top game Dungeons & Dragons I have made a fantasy map for my home-made world I have created. This map is 
+          however a .jpg image I have made in a none GIS software. I have recently wondered if I should import the map into QGIS.
+          The map s at a pretty large scale and at a fine detail so instead of having to manually recreate it with manually placing vertex's,
+          I wanted to find a easier method.
+          </p>          
+          <img src="images/flood_risk/oslo_DEM.png" alt="DEM"> 
+          <i>My fantasy D&D map</i>
+          <p>
+        </section>
+      </article>
+    </main>
+    <footer>
+     <p>&copy; 2023 My Blog Name</p>
+     <a href="index.html">Return to the main site</a>
+    </footer>
+  </body>
+</html>
