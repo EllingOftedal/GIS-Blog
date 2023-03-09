@@ -20,7 +20,7 @@ form.addEventListener('submit', function(event) {
 	event.preventDefault();
 	var address = document.getElementById('address').value;
 	// Remove extra whitespace characters from the input address
-	address = address.replace(/\s+/g, ' ').trim();
+	address = address.replace(/ {2,}/g, ' ').trim();
 	// Remove commas from the input address
 	address = address.replace(/,/g, '');
 	// Convert to lowercase
