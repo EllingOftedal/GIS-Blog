@@ -19,12 +19,14 @@ var risk = document.getElementById('risk');
 form.addEventListener('submit', function(event) {
 	event.preventDefault();
 	var address = document.getElementById('address').value;
+	// Remove extra whitespace characters from the input address
+	address = address.replace(/\s+/g, ' ').trim();
 	// Remove commas from the input address
 	address = address.replace(/,/g, '');
-	// Remove leading/trailing whitespace and convert to lowercase
-	address = address.trim().toLowerCase();
+	// Convert to lowercase
+	address = address.toLowerCase();
 	var match = data.find(row => {
-		// Remove leading/trailing whitespace and commas and convert to lowercase for each row's address value
+		// Remove leading/trailing whitespace and commas, and convert to lowercase for each row's address value
 		var rowAddress = row.Address.replace(/,/g, '').trim().toLowerCase();
 		// Check if the row address contains the input address
 		return rowAddress.includes(address);
