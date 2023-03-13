@@ -54,6 +54,15 @@ header a[href$="GIS-Blog"] {
   font-size: 0.8em;
 }
 
+.blog-block h2 a {
+  color: #FFA500;
+}
+
+.blog-block p {
+  color: #FFFFFF;
+}
+
+
 /*Blog post block style END*/
 
 nav ul {
