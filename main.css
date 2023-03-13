@@ -18,6 +18,30 @@ header a[href$="GIS-Blog"] {
 }
 
 
+/*Blog post block style*/
+.blog-block {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #FFA500;
+  border-radius: 5px;
+}
+
+.blog-block a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.blog-block img {
+  max-width: 100%;
+}
+
+.blog-block p {
+  margin: 0.5em 0;
+  font-size: 0.8em;
+}
+
+/*Blog post block style*/
+
 nav ul {
   list-style: none;
   margin: 0;
