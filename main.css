@@ -18,7 +18,7 @@ header a[href$="GIS-Blog"] {
 }
 
 
-/*Blog post block style*/
+/*Blog post block style START*/
 .blog-block {
   margin: 1em;
   padding: 1em;
@@ -32,7 +32,8 @@ header a[href$="GIS-Blog"] {
 }
 
 .blog-block img {
-  max-width: 100%;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .blog-block p {
@@ -40,7 +41,7 @@ header a[href$="GIS-Blog"] {
   font-size: 0.8em;
 }
 
-/*Blog post block style*/
+/*Blog post block style END*/
 
 nav ul {
   list-style: none;
