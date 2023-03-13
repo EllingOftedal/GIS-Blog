@@ -15,9 +15,41 @@ layout: default
       </div>
       <nav>
         <ul>
-          <li><a href="{{ '/flood_risk.html' | relative_url }}">Flood risk in Oslo area</a></li>
-          <li><a href="{{ '/fantasy_map_to_vector.html' | relative_url }}">Fantsy Map to a vector polygon</a></li>
-          <li><a href="{{ '/blog_posts/master.html' | relative_url }}">Activity patterns from GPS Data</a></li>
+          
+         <!-- Blog Block -->        
+        <div class="blog-post">
+          <a href="{{ '/flood_risk.html' | relative_url }}">
+           <img src="images/flood_risk/oslo_DEM.png" alt="DEM">
+          </a>
+         <div class="blog-post-description">
+          <li><h2><a href="{{ '/flood_risk.html' | relative_url }}">Flood risk in Oslo area</a></h2></li>
+          <p>A blog post in progress. Planned to have a flood risk map for Oslo region and enable a user to search for an
+            address which it will look up the risk assessment for that address.</p>
+         </div>
+        </div>
+          
+        <div class="blog-post">
+          <a href="{{ '/fantasy_map_to_vector.html' | relative_url }}">
+           <img src="images/fantasy_map_to_vector/NDWI_kaldonia.png" alt="NDWI kaldonia">
+          </a>
+         <div class="blog-post-description">
+          <li><h2><a href="{{ '/fantasy_map_to_vector.html' | relative_url }}">Fantsy Map to a vector polygon</a></h2></li>
+          <p>A blog where I transform a fantasy map I have made for the table top game Dungeons and Dragons into a 
+           polygon vector using remote sensing techniques.</p>
+         </div>
+        </div>
+          
+        <div class="blog-post">
+          <a href="{{ '/blog_posts/master.html' | relative_url }}">
+           <img src="images/master/locations_w_expected_NDI2.jpg" alt="NDI Observed Expected">
+          </a>
+         <div class="blog-post-description">
+          <li><h2><a href="{{ '/blog_posts/master.html' | relative_url }}">Activity patterns from GPS Data</a></h2></li>
+          <p>A blog where I show how I in my master compared the activty patters of observed indiviudals using GPS data 
+           with a model of potetion activty I created.</p>
+         </div>
+        </div>
+         
         </ul>
       </nav>
     </header>
