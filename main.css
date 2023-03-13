@@ -36,7 +36,7 @@ header a[href$="GIS-Blog"] {
 
 .blog-post img {
   max-width: 200px;
-  max-height: 200px;
+  height: auto;
 }
 
 .blog-post-description {
