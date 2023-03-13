@@ -14,7 +14,7 @@ header h1 {
 }
 
 header a[href$="GIS-Blog"] {
-  color: #FFA500;
+  color: #FFA500 !important;
 }
 
 
