@@ -55,11 +55,11 @@ header a[href$="GIS-Blog"] {
 }
 
 .blog-post h2 a {
-  color: #FFFFFF;
+  color: #FFA500;
 }
 
 .blog-post p {
-  color: #FFA500;
+  color: #FFFFFF;
 }
 
 /* Blog post block style END */
