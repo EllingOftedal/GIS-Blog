@@ -19,24 +19,37 @@ header a[href$="GIS-Blog"] {
 
 
 /*Blog post block style START*/
-.blog-block {
+.blog-post {
   margin: 1em;
   padding: 1em;
   border: 1px solid #FFA500;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.blog-block a {
+.blog-post a {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-.blog-block img {
+.blog-post img {
   max-width: 200px;
   max-height: 200px;
 }
 
-.blog-block p {
+.blog-post-description {
+  margin-left: 1em;
+  flex-grow: 1;
+}
+
+.blog-post-description h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.blog-post-description p {
   margin: 0.5em 0;
   font-size: 0.8em;
 }
