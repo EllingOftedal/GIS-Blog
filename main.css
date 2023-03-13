@@ -13,6 +13,11 @@ header h1 {
   color: #FFA500;
 }
 
+header a[href$="GIS-Blog"] {
+  color: #FFA500;
+}
+
+
 nav ul {
   list-style: none;
   margin: 0;
