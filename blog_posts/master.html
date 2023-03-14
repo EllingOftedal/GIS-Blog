@@ -41,38 +41,38 @@
             distribution in the Oslo metropolitan area. I did not have data for the population distribution, but I used a address list
             by apartment level from Kartverket (Norwegian Mapping Agency) as a proxy for population distribution. The reason I wanted 
             to do this is because I wanted to see how representative the respondent’s spatial distribution was. As seen in the map below 
-            omparing the spatial distribution of the respondents with all address points it showcases that the the spatial distribution
-            is given it's small sample size relative representative.
+            comparing the spatial distribution of the respondents with all address points it showcases that the the spatial distribution
+            is given its small sample size relative representative.
           </p>
           
           <img src="../images/master/data_overview4.jpg" alt="overview">
           <i>
           This is the overview using a kernel density of the home addresses of the 226 respondents, compared to the address dataset
-          on apartment level from Kartverket. As a comparison of spatial distribution of the respondnets 
+          on apartment level from Kartverket. As a comparison of spatial distribution of the respondents 
           </i>
           
          
           <br>
             <h2> Creating the model to simulate the potential for travel</h2>
           <p>
-           The next step of the process was to create a model which could simulate the potential activty of the respondents 
+           The next step of the process was to create a model which could simulate the potential activity of the respondents 
             to better compare the use of space in Oslo. Due to security reasons the address points of respondents and
-            trip information was separeted. This resulted in me having to use the average trip lenght (3885.9m) as the distance for 
-            the service area anaylsis I did for each address.  
+            trip information was separated. This resulted in me having to use the average trip length (3885.9m) as the distance for 
+            the service area analysis I did for each address.  
           </p>
             
           <img src="../images/master/master_model.jpg" alt="model">
           <i>
-            The iterating model done for each address of the 273 respondents to calculate their travel potential.
+            The iterating model is done for each address of the 273 respondents to calculate their travel potential.
           </i>
           
           
           <p>
            The model iterates over the point file of the addresses of the 226 respondents. For each address it adds it as a location for
-            a Service Area network analysis. It then export the line file from the service area. I wanted to simulate how the GPS
-            signal records the users position and is not a contious signal. I found the average distance between each GPS 
-            recording from the trips by calculating the average distance between each vertecies of the line polygons (33.9m). I then 
-            dissolved the lines from the service area and sampled points from this file every 33.9m using generate point along lines. 
+            a Service Area network analysis. It then exports the line file from the service area. I wanted to simulate how the GPS
+            signal records the user's position and is not a continuous signal. I found the average distance between each GPS 
+            recording from the trips by calculating the average distance between each vertices of the line polygons (33.9m). I then 
+            dissolved the lines from the service area and sampled points from this file every 33.9m using generate points along lines. 
             Then I appended this feature to the output file.
           </p>
             
@@ -80,14 +80,14 @@
           <br>
           
           <p>
-           The result of this model where a file with 4.129 million points. Similar to the GPS recordings from the respondents I
+           The result of this model was a file with 4.129 million points. Similar to the GPS recordings from the respondents I
             made a Kernel Density analysis of the travel potential of the respondents to have a better comparison for the use of space
-            in Oslo Metropolitian area.
+            in the Oslo Metropolitan area.
           </p>
           
           <img src="../images/master/locations_w_expected.jpg" alt="observed_expected">
           <i>
-           The result of Kernel Densities of the GPS observations of the respondants and their modelled potential travel area
+           The result of Kernel Densities of the GPS observations of the respondents and their modelled potential travel area
           </i>
           
           <br>
@@ -108,13 +108,13 @@
           
           <img src="../images/master/locations_w_expected_NDI_new.jpg" alt="observed_expected_NDI">
           <i>
-            The NDI of the Kernel Densieties of GPS observations and simulated expected potential. Blue = Higher Expected.
+            The NDI of the Kernel Densities of GPS observations and simulated expected potential. Blue = Higher Expected.
             Red = Higher Observed
           </i>
           
           <p>
-            Not suprisingly there is more activity in around transportation artereis and hubs. However this is the type of map
-            I used for futher compare rush hour with none rush hour, and weekend vs none weeked observations. 
+            Not surprisingly there is more activity around transportation arteries and hubs. However this is the type of map
+            I used for further compare rush hour with non- rush hour, and weekend vs non-weekly observations. 
           </p>
           
           <br>
@@ -135,20 +135,20 @@
           
           <p>
            To compare rush traffic with none rush traffic I used the Norwegian Public Roads Administrations time on rush hour
-            tax as the temporal devider. Creating an NDI comparing this selection to each other resulted in this map.
+            tax as the temporal divider. Creating an NDI comparing this selection to each other resulted in this map.
           </p>
           
           <img src="../images/master/rush_vs_not_rush_ndi_new.jpg" alt="rush_NDI">
           <i>
-            Red = higher values for rush hour. Blue = higher values for non rush hour.
+            Red = higher values for rush hour. Blue = higher values for non-rush hour.
           </i>
           <br>
           
           <p>
-            The rush traffic map reveals some interesting spatial patters indicating commute patterns, there is also indication
+            The rush traffic map reveals some interesting spatial patterns indicating commute patterns, there is also indication
             that people tend to move more outside of urban areas outside of rush traffic. However it is important 
-            to keep in mind the small sample size for the map in general. The weekend vs non weekend map was simple to devide
-            using saturday and sunday as temporal deviders.
+            to keep in mind the small sample size for the map in general. The weekend vs non weekend map was simple to divide
+            using saturday and sunday as temporal dividers.
           </p>
           
           <img src="../images/master/weekend_workdays_ndi_new.jpg" alt="weekend_NDI">
@@ -159,8 +159,8 @@
           <br>
           
           <p>
-           For the weekend map it is clear how much greater extent of travel individuals have during weekend compared to workdays.
-           Especially travel in forest or outside of urban areas. 
+           For the weekend map it is clear how much greater the extent of travel individuals have during weekends compared to workdays.
+           Especially travelling in forests or outside of urban areas.  
           </p>
           
        </section>
