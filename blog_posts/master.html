@@ -96,9 +96,23 @@
             Comparing the observed with the expected
           </h2>
           
-          
+          <p>
+           To more easely and accuratly compare the results I created a Normalized Difference Index of the Observed and expected
+            raster layers. To do this I simeply used the formula in raster calculator for the Kernal Density results: <br> 
+            (Observed - Expected) / (Observed + Expected) <br>
+            As I used the average trip distance for the potential for travel, there was a lot of areas which never could be reached by
+            the model. To make the map more readable and highlight the high values that actually could be reached, I exlueded the value 
+            1 from the map. As -1 (Blue) is a very high value in expected and low in observed, and 1 (Red) is a very high value in observed
+            and a low value in expected.
+          </p>
           
           <img src="../images/master/locations_w_expected_NDI_new.jpg" alt="observed_expected_NDI">
+          <i>
+            The NDI of the Kernel Densieties of GPS observations and simulated expected potential. Blue = Higher Expected.
+            Red = Higher Observed
+          </i>
+          
+          
           
        </section>
       </article>
