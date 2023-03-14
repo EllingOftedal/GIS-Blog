@@ -29,28 +29,26 @@
         </header>
         <section>
           <p>
-          In the tabletop game Dungeons & Dragons I have made a fantasy map for my home-made world I have created. 
-            This map is however a .jpg image I have made in a non-GIS software. I have recently wondered if I should import the map 
-            into QGIS. The map is at a pretty large scale and at a fine detail so instead of having to manually recreate 
-            it with manually placing vertex's, I wanted to find an easier method.
+         A while ago I made a fantasy map for my homemade world in the tabletop game Dungeons & Dragons. 
+            This map is however a .jpg image made in a non-GIS software, and I have recently wondered if I should import the map 
+            into QGIS. The map is at a large scale and is quite detailed, so instead of having to recreate it by manually drawing 
+            the polygon, I wanted to find an easier method.
           </p>          
           <img src="images/fantasy_map_to_vector/kaldonia.png" alt="kaldonia">
           <i>My fantasy D&D map</i>
           <p>
-          I used a custom plugin in QGIS ('Freehand raster georeference') to rescale the image based on the hex grid scale 
-          I have on the map. As each grid is about 39km I used the CRS WGS 1984 Mercator and placed the map at equator since the map 
-          originally was not created without considering any CRS.
+          I used a custom plugin in QGIS ('Freehand raster georeference') to rescale the image based on the hex grid scale I have 
+            on the map. As each grid is about 39 km, I used the CRS WGS 1984 Mercator and placed the map at the equator since the 
+            map was originally created without considering any CRS.
           </p>
           <br>               
           <h2>Creating a NDWI of a .jpg image</h2>
           <p>
-          After importing the raster image in the correct scale I wanted to create a vector polygon of the landmass of my continent. 
-          Using knowledge from remote sensing on how to calculate a NDWI (Normalized Difference Water Index) calculated as: 
-          (G-NIR)/(G+NIR). However my map is not a Landsat 7 or 8 raster image with a NIR band, but the spectral signatures 
-          are much simpler on an image. I ended up adapting the formula to make the colour blue as dark as possible so it would be 
-          easier to isolate water and none water bodies at a later point. 
-          The formula I ended up using in raster calculator was:
-          ((Red + Green) - Blue) / ((Red + Green) + Blue)
+          After importing the raster image in the correct scale, I wanted to create a vector polygon of the landmass of my continent. 
+            Using knowledge from remote sensing on how to calculate a NDWI (Normalized Difference Water Index) which is calculated as 
+            <b>(G-NIR)/(G+NIR)</b>. However my map is not a Landsat 7 or 8 raster image with a NIR band, but the spectral signatures
+            are much simpler on an image. I ended up adapting the formula to make the colour blue as dark as possible as it would be
+            easier to isolate water and none-water bodies at a later point.
           </p>
           <br>
           <p>This is the formula used in raster calculator:</p>
@@ -65,32 +63,32 @@
            <br>
           <p>
            <h2>NDWI to vector data</h2>
-          After creating the NDWI I want to have a simple dissolved land use polygons of shapes which are either classified as 
-          water bodies or not water bodies. To do this I first needed to classify the raster layer as a binary 0 or 1 indicating it 
-          being water or not water. To do this I first checked different values of different pixels of water features. 
-          Then I opened the raster calculator and put in the formula: NDWI@1 > 0.3. The result of this looked approximately 
-          as I wanted it to look, but with a lot of noise. Due to the limited information of a .jpg image compared to a satellite 
-          image and the wide range of colours used in my map some noise is almost impossible to prevent.
+          After creating the NDWI I want to have a simple dissolved land use polygons of shapes that are either classified as 
+        water bodies or not water bodies. To do this I first needed to classify the raster layer as a binary 0 or 1, indicating it 
+        being water or not water. To do this I first checked different values of different pixels of water features. Then I opened 
+        the raster calculator and put in the formula: NDWI@1 > 0.3. The result of this looked approximately as I wanted it, but 
+        with a lot of noise. Due to the limited information of a .jpg image compared to a satellite image and the wide range of 
+        colours used in my map, some noise is almost impossible to prevent.
           </p>
           <img src="images/fantasy_map_to_vector/NDWI_classified.png" alt="classified">
           <i>The classified raster image of the NDWI</i>
           </p> 
           <br>
           <p>
-           The next step is to create a polygon out of the classified NDWI raster. To do this I could use the "Polygonize (Raster to Vector)" 
-          tool in QGIS. Using symbology I quickly classified the 0 and 1 on the water bodies as blue and light parchment to view the result. 
-          The output given the initial image looks pretty good. It has a lot of artefacts from the raster noise which will almost 
-          be impossible to not have to clean manually since there are a lot of labels with blue text or features with blue colour. 
-          However doing some vector cleaning and editing from this output compared to having to manually draw this polygon is still 
-          a huge time saver.
+           The next step is creating a polygon out of the classified NDWI raster. To do this I could use the 
+            "Polygonize (Raster to Vector)" tool in QGIS. Using symbology I quickly classified the 0 and 1 on the water bodies 
+            as blue and light parchment to view the result. The output given the initial image looks pretty good. It has a lot of 
+            artefacts from raster elements like labels or symbols which are difficult to remove by other means than manual editing.
+            However, doing some vector cleaning and editing from this output compared to having to manually draw this polygon is 
+            still a huge time saver.
           </p>
           <img src="images/fantasy_map_to_vector/NDWI_vector.png" alt="NDWI_vector">
           <i>The vector result from the process</i>    
           <p>
            <br>
-          In the end this was a fun small project, and perhaps in the future I will return to it and clean up the polygon, 
-          and add more features such as creating a DEM (Digital Elevation Model). But for anyone who has an image file they consider 
-          to import into GIS to work with as vector data then I hope this can motivate you to give it a try.
+          In the end, this was a small fun project. Perhaps in the future I will return to it and clean up the polygon and add more 
+            features such as creating a DEM (Digital Elevation Model). But for anyone who has an image file they consider importing 
+            into GIS to work with as vector data, I hope this can motivate you to give it a try.
           <p>
         </section>
       </article>
