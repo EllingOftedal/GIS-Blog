@@ -17,6 +17,14 @@ header a[href$="GIS-Blog"] {
   color: #FFA500 !important;
 }
 
+.welcome-text {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 /* Blog post block style START */
 .blog-post {
   margin: 1em;
