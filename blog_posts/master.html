@@ -48,11 +48,24 @@
           <p>
            The next step of the process was to create a model which could simulate the potential activty of the respondents 
             to better compare the use of space in Oslo. Due to security reasons the address points of respondents and
-            trip information was separeted. This resulted in me having to use the average trip lenght as the distance for 
-            the service area anaylsis I did for each address. 
+            trip information was separeted. This resulted in me having to use the average trip lenght (3885.9m) as the distance for 
+            the service area anaylsis I did for each address.  
           </p>
             
           <img src="../images/master/master_model.jpg" alt="model">
+          <i>
+            The iterating model done for each address of the 273 respondents to calculate their travel potential
+          </i>
+          
+          
+          <p>
+           The model iterates over the point file of the addresses of the 273 respondents. For each address it adds it as a location for
+            a Service Area network analysis. It then export the line file from the service area. I wanted to simulate how the GPS
+            signal records the users position and is not a contious signal. I found the average distance between each GPS 
+            recording from the trips by calculating the average distance between each vertecies of the line polygons (33.9m). I then 
+            dissolved the lines from the service area and sampled points from this file every 33.9m using generate point along lines. 
+            Then I appended this feature to the output file.
+          </p>
             
             
           <img src="../images/master/data_overview4.jpg" alt="overview">
