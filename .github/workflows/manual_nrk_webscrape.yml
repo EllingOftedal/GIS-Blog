@@ -7,14 +7,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Run NRK Inland script
-        run: python GIS-Blog/scripts/nrk/inland/nrk_inland.py
-      - name: Run NRK Global script
-        run: python GIS-Blog/scripts/nrk/global/nrk_global.py
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: pip install -r GIS-Blog/scripts/nrk/inland/requirements.txt && pip install -r GIS-Blog/scripts/nrk/global/requirements.txt
+    - name: Run scripts
+      run: |
+        python GIS-Blog/scripts/nrk/inland/nrk_inland.py
+        python GIS-Blog/scripts/nrk/global/nrk_global.py
