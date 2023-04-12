@@ -1,4 +1,4 @@
-name: NRK Web Scraper
+name: NRK Automatic Webscraper
 
 on:
   schedule:
