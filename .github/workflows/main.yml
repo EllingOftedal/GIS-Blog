@@ -1,4 +1,4 @@
-name: NRK Inland Scraper
+name: NRK Web Scraper
 
 on:
   schedule:
