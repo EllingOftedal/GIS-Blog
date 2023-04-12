@@ -16,13 +16,13 @@ jobs:
         python-version: 3.9
     - name: Set file permissions
       run: |
-        chmod -R 755 GIS-Blog/scripts/nrk/inland
-        chmod -R 755 GIS-Blog/scripts/nrk/global
+        chmod -R 755 scripts/nrk/inland
+        chmod -R 755 scripts/nrk/global
     - name: Install dependencies
       run: |
-        pip install -r GIS-Blog/scripts/nrk/inland/requirements.txt
-        pip install -r GIS-Blog/scripts/nrk/global/requirements.txt
+        pip install -r scripts/nrk/inland/requirements.txt
+        pip install -r scripts/nrk/global/requirements.txt
     - name: Run scripts
       run: |
-        python GIS-Blog/scripts/nrk/inland/nrk_inland.py
-        python GIS-Blog/scripts/nrk/global/nrk_global.py
+        python scripts/nrk/inland/nrk_inland.py
+        python scripts/nrk/global/nrk_global.py
