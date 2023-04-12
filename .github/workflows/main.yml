@@ -1,0 +1,29 @@
+name: NRK Inland Scraper
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # runs every 12 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run NRK Inland script
+      run: python GIS-Blog/scripts/nrk/inland/nrk_inland.py
+      
+    - name: Run Additional script
+      run: python GIS-Blog/scripts/nrk/global/nrk_global.py
