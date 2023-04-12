@@ -1,0 +1,18 @@
+name: Manual NRK Web Scrape
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: pip install -r GIS-Blog/scripts/nrk/requirements.txt
+    - name: Run scripts
+      run: python GIS-Blog/scripts/nrk/inland/nrk_inland.py && python GIS-Blog/scripts/nrk/global/nrk_global.py
