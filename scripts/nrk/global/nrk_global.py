@@ -9,9 +9,9 @@ import concurrent.futures
 import ahocorasick
 import time
 
-visited_articles_file = r"GIS-Blog\scripts\nrk\global\visited_articles_country.csv"
-locations_filter_file = r"GIS-Blog\scripts\nrk\global\country_filter.csv"
-locations_output_file = r"GIS-Blog\scripts\nrk\global\countries_output.csv"
+visited_articles_file = r"scripts\nrk\global\visited_articles_country.csv"
+locations_filter_file = r"scripts\nrk\global\country_filter.csv"
+locations_output_file = r"scripts\nrk\global\countries_output.csv"
 
 
 def read_visited_articles():
