@@ -32,7 +32,7 @@ jobs:
         with:
           commit_message: Update NRK data
           commit_options: '--author="EllingOftedal <ellingoftedal93@gmail.com>"'
-          repository: https://github.com/EllingOftedal/GIS-Blog.git
+          repository: https://github.com/EllingOftedal/GIS-Blog
           branch: gh-pages
           commit_user_name: EllingOftedal
           commit_user_email: ellingoftedal93@gmail.com
