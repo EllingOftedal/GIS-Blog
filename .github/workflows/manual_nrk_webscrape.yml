@@ -30,11 +30,9 @@ jobs:
       - name: Commit and Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update NRK data
-          commit_options: '--author="EllingOftedal <ellingoftedal93@gmail.com>"'
-          repository: https://github.com/EllingOftedal/GIS-Blog.git
-          branch: gh-pages
-          commit_user_name: EllingOftedal
-          commit_user_email: ellingoftedal93@gmail.com
+        run: |
+          git config --global user.name "EllingOftedal"
+          git config --global user.email "ellingoftedal93@gmail.com"
+          git add .
+          git commit -m "Update NRK data"
+          git push origin gh-pages
