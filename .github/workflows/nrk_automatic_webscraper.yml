@@ -20,11 +20,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    - name: Set file permissions
-      run: |
-        chmod -R 755 GIS-Blog/scripts/nrk/inland
-        chmod -R 755 GIS-Blog/scripts/nrk/global
+        pip install -r GIS-Blog/scripts/nrk/inland/requirements.txt
+        pip install -r GIS-Blog/scripts/nrk/global/requirements.txt
+
     - name: Run NRK Inland script
       run: python GIS-Blog/scripts/nrk/inland/nrk_inland.py
       
