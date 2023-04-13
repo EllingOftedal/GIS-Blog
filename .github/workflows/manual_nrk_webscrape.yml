@@ -28,6 +28,8 @@ jobs:
           python scripts/nrk/inland/nrk_inland.py
           python scripts/nrk/global/nrk_global.py
       - name: Commit and Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update NRK data
