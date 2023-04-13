@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.name "EllingOftedal"
           git config --global user.email "ellingoftedal93@gmail.com"
-          git add .
+          git add -A
           git commit -m "Update NRK data"
           git push origin gh-pages
