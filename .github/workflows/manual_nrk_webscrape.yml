@@ -18,6 +18,8 @@ jobs:
         run: |
           chmod -R 755 scripts/nrk/inland/
           chmod -R 755 scripts/nrk/global/
+          chmod -R +w scripts/nrk/inland/
+          chmod -R +w scripts/nrk/global/
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -27,17 +29,3 @@ jobs:
         run: |
           python scripts/nrk/inland/nrk_inland.py
           python scripts/nrk/global/nrk_global.py
-      - name: Commit and Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        uses: EndBug/add-and-commit@v7.0.1
-        with:
-          message: Update NRK data
-          author_name: EllingOftedal
-          author_email: ellingoftedal93@gmail.com
-          repository: .
-          branch: gh-pages
-          push: true
-          contents: write
-        run: |
-          yarn install
