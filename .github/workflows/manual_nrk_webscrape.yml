@@ -27,14 +27,14 @@ jobs:
         run: |
           python scripts/nrk/inland/nrk_inland.py
           python scripts/nrk/global/nrk_global.py
-        - name: Commit and Push changes
-          uses: stefanzweifel/git-auto-commit-action@v4
-          with:
-            commit_message: Update NRK data
-            commit_options: '--author="EllingOftedal <ellingoftedal93@gmail.com>"'
-            repository: ${{ GIS-Blog }}
-            branch: gh-pages
-            commit_user_name: EllingOftedal
-            commit_user_email: ellingoftedal93@gmail.com
-            commit_gpg_sign: false
-            pull_branch: false
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update NRK data
+          commit_options: '--author="EllingOftedal <ellingoftedal93@gmail.com>"'
+          repository: ${{ GIS-Blog }}
+          branch: gh-pages
+          commit_user_name: EllingOftedal
+          commit_user_email: ellingoftedal93@gmail.com
+          commit_gpg_sign: false
+          pull_branch: false
