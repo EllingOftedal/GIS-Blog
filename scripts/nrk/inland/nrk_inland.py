@@ -17,7 +17,7 @@ def read_visited_articles():
         with open(visited_articles_file, "r", encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             try:
-                next(reader)
+                next(reader)  # Skip the header row
                 for row in reader:
                     visited_articles.add(row[0])
             except StopIteration:
@@ -61,6 +61,7 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited = csv.writer(csvfile_visited)
             writer_visited.writerow([url, datetime.now()])
 
+    print(f"URL: {url}, Matches: {matches}")
     return url, matches, time_published
 
 
