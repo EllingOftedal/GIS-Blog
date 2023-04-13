@@ -36,5 +36,5 @@ jobs:
           branch: gh-pages
           commit_user_name: EllingOftedal
           commit_user_email: ellingoftedal93@gmail.com
-          commit_gpg_sign: false
           pull_branch: false
+
