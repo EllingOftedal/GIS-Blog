@@ -44,3 +44,14 @@ jobs:
         run: |
           cp scripts/nrk/global/visited_articles_country.csv results
           cp scripts/nrk/global/countries_output.csv results
+      - name: Configure Git
+        run: |
+          git config --global user.name "EllingOftedal"
+          git config --global user.email "ellingoftedal93@gmail.com"
+      - name: Commit and push changes
+        run: |
+          git add results/*
+          git commit -m "Update CSV files from NRK Web Scrape"
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
