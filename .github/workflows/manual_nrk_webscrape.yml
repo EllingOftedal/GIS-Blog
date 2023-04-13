@@ -52,5 +52,7 @@ jobs:
         run: |
           git add results/*
           git commit -m "Update CSV files from NRK Web Scrape"
-          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/EllingOftedal/GIS-Blog.git
-          git push origin gh-pages
+          git push https://${{ env.GH_PAT }}@github.com/EllingOftedal/GIS-Blog.git gh-pages
+        env:
+          GH_PAT: ${{ secrets.PAT_TOKEN }}
+          
