@@ -25,7 +25,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/nrk/inland/requirements.txt
           pip install -r scripts/nrk/global/requirements.txt
-      - name: Run scripts
+      - name: Run inland script
+        run: python scripts/nrk/inland/nrk_inland.py
+        env:
+          visited_articles_file: "scripts/nrk/inland/visited_articles_innland.csv"
+          locations_output_file: "scripts/nrk/inland/innland_output.csv"
+      - name: Copy inland output to results folder
         run: |
-          python scripts/nrk/inland/nrk_inland.py
-          python scripts/nrk/global/nrk_global.py
+          mkdir results
+          cp scripts/nrk/inland/locations_output.csv results
+      - name: Run global script
+        run: python scripts/nrk/global/nrk_global.py
+        env:
+          visited_articles_file: "scripts/nrk/global/visited_articles_country.csv"
+          locations_output_file: "scripts/nrk/global/countries_output.csv"
+      - name: Copy global output to results folder
+        run: |
+          cp scripts/nrk/global/locations_output.csv results
