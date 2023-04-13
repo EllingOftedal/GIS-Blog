@@ -27,5 +27,5 @@ jobs:
           pip install -r scripts/nrk/global/requirements.txt
       - name: Run scripts
         run: |
-          sudo python scripts/nrk/inland/nrk_inland.py
-          sudo python scripts/nrk/global/nrk_global.py
+          python scripts/nrk/inland/nrk_inland.py
+          python scripts/nrk/global/nrk_global.py
