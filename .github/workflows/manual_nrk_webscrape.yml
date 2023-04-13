@@ -18,10 +18,6 @@ jobs:
       run: |
         chmod -R 755 scripts/nrk/inland
         chmod -R 755 scripts/nrk/global
-    - name: Install dependencies
-      run: |
-        pip install -r scripts/nrk/inland/requirements.txt
-        pip install -r scripts/nrk/global/requirements.txt
     - name: Run scripts
       run: |
         python scripts/nrk/inland/nrk_inland.py
