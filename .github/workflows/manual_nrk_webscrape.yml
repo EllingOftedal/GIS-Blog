@@ -55,6 +55,6 @@ jobs:
           publish_dir: results
           commit_message: "Update CSV files from NRK Web Scrape"
           force_orphan: true
-          branch: gh-pages
+          publish_branch: gh-pages
 
           
