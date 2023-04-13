@@ -16,10 +16,10 @@ jobs:
           python-version: 3.9
       - name: Set file permissions
         run: |
-          sudo chmod -R 755 scripts/nrk/inland/
-          sudo chmod -R 755 scripts/nrk/global/
-          sudo chmod -R +w scripts/nrk/inland/
-          sudo chmod -R +w scripts/nrk/global/
+          chmod -R 755 scripts/nrk/inland/
+          chmod -R 755 scripts/nrk/global/
+          chmod -R +w scripts/nrk/inland/
+          chmod -R +w scripts/nrk/global/
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
