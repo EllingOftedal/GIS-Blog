@@ -61,7 +61,6 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited = csv.writer(csvfile_visited)
             writer_visited.writerow([url, datetime.now()])
 
-    print(f"URL: {url}, Matches: {matches}")
     return url, matches, time_published
 
 
