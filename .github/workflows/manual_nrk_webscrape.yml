@@ -16,8 +16,8 @@ jobs:
           python-version: 3.9
       - name: Set file permissions
         run: |
-          chmod -R 755 scripts/nrk/inland/
-          chmod -R 755 scripts/nrk/global/
+          chmod -R 777 scripts/nrk/inland/
+          chmod -R 777 scripts/nrk/global/
           chmod -R +w scripts/nrk/inland/
           chmod -R +w scripts/nrk/global/
       - name: Install dependencies
