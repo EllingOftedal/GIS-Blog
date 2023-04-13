@@ -33,7 +33,8 @@ jobs:
       - name: Copy inland output to results folder
         run: |
           mkdir results
-          cp scripts/nrk/inland/locations_output.csv results
+          cp scripts/nrk/inland/visited_articles_innland.csv results
+          cp scripts/nrk/inland/innland_output.csv results
       - name: Run global script
         run: python scripts/nrk/global/nrk_global.py
         env:
@@ -41,4 +42,5 @@ jobs:
           locations_output_file: "scripts/nrk/global/countries_output.csv"
       - name: Copy global output to results folder
         run: |
-          cp scripts/nrk/global/locations_output.csv results
+          cp scripts/nrk/global/visited_articles_country.csv results
+          cp scripts/nrk/global/countries_output.csv results
