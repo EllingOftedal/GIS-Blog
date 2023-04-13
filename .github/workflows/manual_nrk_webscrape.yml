@@ -30,9 +30,14 @@ jobs:
       - name: Commit and Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        uses: EndBug/add-and-commit@v7.0.1
+        with:
+          message: Update NRK data
+          author_name: EllingOftedal
+          author_email: ellingoftedal93@gmail.com
+          repository: .
+          branch: gh-pages
+          push: true
+          contents: write
         run: |
-          git config --global user.name "EllingOftedal"
-          git config --global user.email "ellingoftedal93@gmail.com"
-          git add -A
-          git commit -m "Update NRK data"
-          git push origin gh-pages
+          yarn install
