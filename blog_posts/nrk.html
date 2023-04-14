@@ -5,6 +5,9 @@
   <title>My Blog</title>
   <link rel="stylesheet" type="text/css" href="../main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
   <style>
     img {
       max-width: 100%;
@@ -42,55 +45,28 @@
         
         <h1>Global Map</h1>
         <div id="global-map"></div>
-        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@2.7.0/dist/leaflet-heatmap.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+        
+        <h1>Local Map of Norway</h1>
+        <div id="local-map"></div>
         <script>
           var globalMap = L.map('global-map').setView([0, 0], 2);
           var globalLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors',
             maxZoom: 18
           }).addTo(globalMap);
-          var globalHeatmapData = [];
-          Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
-            download: true,
-            header: true,
-            complete: function(results) {
-              results.data.forEach(function(row) {
-                globalHeatmapData.push([row.Latitude, row.Longitude]);
-              });
-              var globalHeatmapLayer = L.heatLayer(globalHeatmapData, {radius: 15}).addTo(globalMap);
-              globalMap.fitBounds(globalHeatmapLayer.getBounds());
-            }
-          });
+          var globalHeatLayer = L.heatLayer([], {radius: 25}).addTo(globalMap);
 
-        </script>
-        
-        <h1>Local Map of Norway</h1>
-        <div id="local-map"></div>
-        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@2.7.0/dist/leaflet-heatmap.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-        <script>
           var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
           var localLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors',
             maxZoom: 18
           }).addTo(localMap);
-          var localHeatmapData = [];
-          Papa.parse('../scripts/nrk/inland/results/innland_output.csv', {
-            download: true,
-            header: true,
-            complete: function(results) {
-              results.data.forEach(function(row) {
-                localHeatmapData.push([row.latitude, row.longitude]);
-              });
-              var localHeatmapLayer = L.heatLayer(localHeatmapData, {radius: 15}).addTo(localMap);
-              localMap.fitBounds(localHeatmapLayer.getBounds());
-            }
-          });
+          var localHeatLayer = L.heatLayer([], {radius: 25}).addTo(localMap);
 
         </script>
-
-
-             
+        <script src="../scripts/js/leaflet-heatmap.js"></script>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
