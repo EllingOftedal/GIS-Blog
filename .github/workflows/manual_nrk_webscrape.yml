@@ -51,10 +51,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: results
-          commit_message: "Update CSV files from NRK Web Scrape"
-          force_orphan: true
-          publish_branch: gh-pages
+          personal_token: ${{ secrets.PAT_TOKEN }}
+          publish_dir: ./results
+          keep_files: true
+
 
           
