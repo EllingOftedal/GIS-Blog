@@ -32,9 +32,9 @@ jobs:
           locations_output_file: "scripts/nrk/inland/innland_output.csv"
       - name: Copy inland output to results folder
         run: |
-          mkdir results
-          cp scripts/nrk/inland/visited_articles_innland.csv results
-          cp scripts/nrk/inland/innland_output.csv results
+          mkdir -p scripts/nrk/inland/results
+          cp scripts/nrk/inland/visited_articles_innland.csv scripts/nrk/inland/results
+          cp scripts/nrk/inland/innland_output.csv scripts/nrk/inland/results
       - name: Run global script
         run: python scripts/nrk/global/nrk_global.py
         env:
@@ -42,8 +42,9 @@ jobs:
           locations_output_file: "scripts/nrk/global/countries_output.csv"
       - name: Copy global output to results folder
         run: |
-          cp scripts/nrk/global/visited_articles_country.csv results
-          cp scripts/nrk/global/countries_output.csv results
+          mkdir -p scripts/nrk/global/results
+          cp scripts/nrk/global/visited_articles_country.csv scripts/nrk/global/results
+          cp scripts/nrk/global/countries_output.csv scripts/nrk/global/results
       - name: Configure Git
         run: |
           git config --global user.name "EllingOftedal"
@@ -52,7 +53,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./results
+          publish_dir: ./scripts/nrk
           keep_files: true
 
 
