@@ -7,9 +7,9 @@ from datetime import datetime
 from tqdm import tqdm
 import concurrent.futures
 
-visited_articles_file = "scripts/nrk/inland/visited_articles_innland.csv"
+visited_articles_file = "scripts/nrk/inland/results/visited_articles_innland.csv"
 locations_filter_file = "scripts/nrk/inland/innland_filter_unique.csv"
-locations_output_file = "scripts/nrk/inland/innland_output.csv"
+locations_output_file = "scripts/nrk/inland/results/innland_output.csv"
 
 def read_visited_articles():
     visited_articles = set()
