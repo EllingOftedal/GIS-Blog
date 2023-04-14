@@ -98,6 +98,10 @@ main {
   padding: 1em;
 }
 
+.leaflet-tile {
+  filter: grayscale(100%);
+}
+
 footer {
   color: #FFA500;
   padding: 1em;
