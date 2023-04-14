@@ -71,7 +71,7 @@
         <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@2.7.0/dist/leaflet-heatmap.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
         <script>
-          var localMap = L.map('local-map');
+          var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
           var localLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors',
             maxZoom: 18
@@ -87,7 +87,9 @@
               var localHeatmapLayer = L.heatLayer(localHeatmapData, {radius: 15}).addTo(localMap);
               localMap.fitBounds(localHeatmapLayer.getBounds());
             }
-         </script>
+          });
+        </script>
+
           });
 
              
