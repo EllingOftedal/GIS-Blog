@@ -13,16 +13,22 @@ locations_output_file = "scripts/nrk/inland/results/innland_output.csv"
 
 def read_visited_articles():
     visited_articles = set()
+    header_exists = False
     if os.path.exists(visited_articles_file):
         with open(visited_articles_file, "r", encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             try:
-                next(reader)  # Skip the header row
+                header_exists = next(reader) == ["url", "datetime"]
                 for row in reader:
                     visited_articles.add(row[0])
             except StopIteration:
                 pass
+    if not header_exists:
+        with open(visited_articles_file, "a", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["url", "datetime"])
     return visited_articles
+
 
 
 def build_location_regex(locations_data):
@@ -81,8 +87,16 @@ def main():
     with concurrent.futures.ThreadPoolExecutor() as executor:
         results = list(tqdm(executor.map(scrape_article, article_urls, [visited_articles] * len(article_urls), [locations_data] * len(article_urls), [location_regexes] * len(article_urls)), total=len(article_urls)))
 
-    if not os.path.exists(locations_output_file):
-        with open(locations_output_file, "w", newline="", encoding="utf-8") as csvfile_output:
+    header_exists = False
+    if os.path.exists(locations_output_file):
+        with open(locations_output_file, "r", newline="", encoding="utf-8") as csvfile_output:
+            reader = csv.reader(csvfile_output)
+            try:
+                header_exists = next(reader) == ["name", "latitude", "longitude", "type", "published", "gathered", "URL"]
+            except StopIteration:
+                pass
+    if not header_exists:
+        with open(locations_output_file, "a", newline="", encoding="utf-8") as csvfile_output:
             writer_output = csv.writer(csvfile_output)
             writer_output.writerow(["name", "latitude", "longitude", "type", "published", "gathered", "URL"])
 
