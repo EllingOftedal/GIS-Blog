@@ -34,9 +34,11 @@ footer {
   background-color: #222222;
   color: #FFFFFF;
   
-  .leaflet-tile {
-  filter: grayscale(100%);
-}
   padding: 1em;
   text-align: center;
+}
+
+
+.leaflet-tile {
+  filter: grayscale(100%);
 }
