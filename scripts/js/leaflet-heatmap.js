@@ -1,4 +1,4 @@
-Papa.parse('scripts/nrk/global/results/countries_output.csv', {
+Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
   download: true,
   header: true,
   complete: function (results) {
@@ -9,7 +9,7 @@ Papa.parse('scripts/nrk/global/results/countries_output.csv', {
   }
 });
 
-Papa.parse('scripts/nrk/inland/results/innland_output.csv', {
+Papa.parse('../scripts/nrk/inland/results/innland_output.csv', {
   download: true,
   header: true,
   complete: function (results) {
