@@ -9,6 +9,12 @@
       max-width: 100%;
       height: auto;
     }
+    #global-map,
+    #local-map {
+      width: 100%;
+      height: 500px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -24,23 +30,53 @@
     <article>
       <header>
         <h2>NRK Spatial overview of news coverage (Work in Progress)</h2>
-        <p>Published on April  14th, 2023</p>
+        <p>Published on April 14th, 2023</p>
       </header>
       <section>
         <p>
-          I have made a script which scrapes nrk.no for location information based on filters I have provided. For the global
-          map this is 
+          I have made a script which scrapes nrk.no for location information based on filters I have provided. For the global map this is 
         </p>
         
-  <h1>Global Map</h1>
-         <br>
+        <h1>Global Map</h1>
+        <div id="global-map"></div>
+        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@2.7.0/dist/leaflet-heatmap.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+        <script>
+          var globalMap = L.map('global-map').setView([0, 0], 2);
+          var globalLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+            maxZoom: 18
+          }).addTo(globalMap);
+          var globalHeatmapData = [];
+          Papa.parse('scripts/nrk/global/results/countries_output.csv', {
+            download: true,
+            header: true,
+            complete: function(results) {
+              results.data.forEach(function(row) {
+                globalHeatmapData.push([row.Latitude, row.Longitude]);
+              });
+              var globalHeatmapLayer = L.heatLayer(globalHeatmapData, {radius: 15}).addTo(globalMap);
+              globalMap.fitBounds(globalHeatmapLayer.getBounds());
+            }
+          });
+        </script>
         
-  <h1>Local Map of Norway</h1>
-     
-  <footer>
-    &copy; 2023 Elling's GIS Blog
-    <a href="index.html">Return to the main site</a>
-  </footer>
-  
-</body>
-</html>
+        <h1>Local Map of Norway</h1>
+        <div id="local-map"></div>
+        <script>
+          var localMap = L.map('local-map');
+          var localLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+            maxZoom: 18
+          }).addTo(localMap);
+          var localHeatmapData = [];
+          Papa.parse('scripts/nrk/inland/results/innland_output.csv', {
+            download: true,
+            header: true,
+            complete: function(results) {
+              results.data.forEach(function(row) {
+                localHeatmapData.push([row.Latitude, row.Longitude]);
+              });
+              var localHeatmapLayer = L.heatLayer(localHeatmapData, {radius: 15}).addTo(localMap);
+             
