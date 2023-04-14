@@ -63,6 +63,7 @@
               globalMap.fitBounds(globalHeatmapLayer.getBounds());
             }
           });
+
         </script>
         
         <h1>Local Map of Norway</h1>
@@ -82,12 +83,13 @@
             header: true,
             complete: function(results) {
               results.data.forEach(function(row) {
-                localHeatmapData.push([row.Latitude, row.Longitude]);
+                localHeatmapData.push([row.latitude, row.longitude]);
               });
               var localHeatmapLayer = L.heatLayer(localHeatmapData, {radius: 15}).addTo(localMap);
               localMap.fitBounds(localHeatmapLayer.getBounds());
             }
           });
+
         </script>
 
 
