@@ -24,7 +24,7 @@ def read_visited_articles():
             except StopIteration:
                 pass
     if not header_exists:
-        with open(visited_articles_file, "a", newline="", encoding="utf-8") as csvfile:
+        with open(visited_articles_file, "w", newline="", encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(["url", "datetime"])
     return visited_articles
@@ -81,7 +81,7 @@ def main():
             except StopIteration:
                 pass
     if not header_exists:
-        with open(locations_output_file, "a", newline="", encoding="utf-8") as csvfile_output:
+        with open(locations_output_file, "w", newline="", encoding="utf-8") as csvfile_output:
             writer_output = csv.writer(csvfile_output)
             writer_output.writerow(["Name", "Latitude", "Longitude", "Population", "Time_Date", "Gathered_Date", "URL"])
 
