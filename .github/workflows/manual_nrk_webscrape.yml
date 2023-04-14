@@ -28,23 +28,13 @@ jobs:
       - name: Run inland script
         run: python scripts/nrk/inland/nrk_inland.py
         env:
-          visited_articles_file: "scripts/nrk/inland/visited_articles_innland.csv"
-          locations_output_file: "scripts/nrk/inland/innland_output.csv"
-      - name: Copy inland output to results folder
-        run: |
-          mkdir -p scripts/nrk/inland/results
-          cp scripts/nrk/inland/visited_articles_innland.csv scripts/nrk/inland/results
-          cp scripts/nrk/inland/innland_output.csv scripts/nrk/inland/results
+          visited_articles_file: "scripts/nrk/inland/results/visited_articles_innland.csv"
+          locations_output_file: "scripts/nrk/inland/results/innland_output.csv"
       - name: Run global script
         run: python scripts/nrk/global/nrk_global.py
         env:
-          visited_articles_file: "scripts/nrk/global/visited_articles_country.csv"
-          locations_output_file: "scripts/nrk/global/countries_output.csv"
-      - name: Copy global output to results folder
-        run: |
-          mkdir -p scripts/nrk/global/results
-          cp scripts/nrk/global/visited_articles_country.csv scripts/nrk/global/results
-          cp scripts/nrk/global/countries_output.csv scripts/nrk/global/results
+          visited_articles_file: "scripts/nrk/global/results/visited_articles_country.csv"
+          locations_output_file: "scripts/nrk/global/results/countries_output.csv"
       - name: Configure Git
         run: |
           git config --global user.name "EllingOftedal"
@@ -55,6 +45,3 @@ jobs:
           personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./
           keep_files: true
-
-
-          
