@@ -30,6 +30,10 @@ main {
   padding: 1em;
 }
 
+.leaflet-tile {
+  filter: grayscale(100%);
+}
+
 footer {
   background-color: #222222;
   color: #FFFFFF;
@@ -38,7 +42,3 @@ footer {
   text-align: center;
 }
 
-
-.leaflet-tile {
-  filter: grayscale(100%);
-}
