@@ -6,7 +6,7 @@ function initializeMaps() {
   }).addTo(globalMap);
   var globalHeatLayer = L.heatLayer([], {
   radius: 25,
-  gradient: {0.0: 'blue', 0.5: 'lime', 1.0: 'red'}
+  gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'}
 }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -16,7 +16,7 @@ function initializeMaps() {
   }).addTo(localMap);
   var localHeatLayer = L.heatLayer([], {
   radius: 25,
-  gradient: {0.0: 'blue', 0.5: 'lime', 1.0: 'red'}
+  gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'}
 }).addTo(localMap);
 
   Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
