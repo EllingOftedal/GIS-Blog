@@ -1,30 +1,49 @@
-name: NRK Automatic Webscraper
+name: Manual and Scheduled NRK Web Scrape
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # runs every 12 hours
+    - cron: '0 */12 * * *'
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r GIS-Blog/scripts/nrk/inland/requirements.txt
-        pip install -r GIS-Blog/scripts/nrk/global/requirements.txt
-
-    - name: Run NRK Inland script
-      run: python GIS-Blog/scripts/nrk/inland/nrk_inland.py
-      
-    - name: Run Additional script
-      run: python GIS-Blog/scripts/nrk/global/nrk_global.py
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Set file permissions
+        run: |
+          chmod -R 755 scripts/nrk/inland/
+          chmod -R 755 scripts/nrk/global/
+          chmod -R +w scripts/nrk/inland/
+          chmod -R +w scripts/nrk/global/
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/nrk/inland/requirements.txt
+          pip install -r scripts/nrk/global/requirements.txt
+      - name: Run inland script
+        run: python scripts/nrk/inland/nrk_inland.py
+        env:
+          visited_articles_file: "scripts/nrk/inland/results/visited_articles_innland.csv"
+          locations_output_file: "scripts/nrk/inland/results/innland_output.csv"
+      - name: Run global script
+        run: python scripts/nrk/global/nrk_global.py
+        env:
+          visited_articles_file: "scripts/nrk/global/results/visited_articles_country.csv"
+          locations_output_file: "scripts/nrk/global/results/countries_output.csv"
+      - name: Configure Git
+        run: |
+          git config --global user.name "EllingOftedal"
+          git config --global user.email "ellingoftedal93@gmail.com"
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PAT_TOKEN }}
+          publish_dir: ./
+          keep_files: true
