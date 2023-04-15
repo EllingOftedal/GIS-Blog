@@ -5,9 +5,10 @@ function initializeMaps() {
     maxZoom: 18
   }).addTo(globalMap);
   var globalHeatLayer = L.heatLayer([], {
-  radius: 25,
-  gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'}
-}).addTo(globalMap);
+    radius: 25,
+    gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
+    maxOpacity: 0.8
+  }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
   var localLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -15,9 +16,10 @@ function initializeMaps() {
     maxZoom: 18
   }).addTo(localMap);
   var localHeatLayer = L.heatLayer([], {
-  radius: 25,
-  gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'}
-}).addTo(localMap);
+    radius: 25,
+    gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
+    maxOpacity: 0.8
+  }).addTo(localMap);
 
   Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
     download: true,
