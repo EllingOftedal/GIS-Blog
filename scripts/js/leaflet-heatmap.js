@@ -1,7 +1,7 @@
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
-  const newRadius = baseRadius * Math.pow(2, currentZoom - 1);
+  const newRadius = baseRadius * currentZoom;
   heatLayer.setOptions({ radius: newRadius });
 }
 
