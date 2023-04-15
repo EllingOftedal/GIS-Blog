@@ -4,14 +4,20 @@ function initializeMaps() {
     attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 18
   }).addTo(globalMap);
-  var globalHeatLayer = L.heatLayer([], {radius: 25}).addTo(globalMap);
+  var globalHeatLayer = L.heatLayer([], {
+  radius: 25,
+  gradient: {0.0: 'blue', 0.5: 'lime', 1.0: 'red'}
+}).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
   var localLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 18
   }).addTo(localMap);
-  var localHeatLayer = L.heatLayer([], {radius: 25}).addTo(localMap);
+  var localHeatLayer = L.heatLayer([], {
+  radius: 25,
+  gradient: {0.0: 'blue', 0.5: 'lime', 1.0: 'red'}
+}).addTo(localMap);
 
   Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
     download: true,
