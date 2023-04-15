@@ -4,7 +4,11 @@ Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
   complete: function (results) {
     const data = results.data;
     data.forEach(function (row) {
-      globalHeatLayer.addLatLng([row.Latitude, row.Longitude]);
+      if (row.Latitude && row.Longitude) {
+        globalHeatLayer.addLatLng([row.Latitude, row.Longitude]);
+      } else {
+        console.warn('Invalid data:', row);
+      }
     });
   }
 });
@@ -15,7 +19,11 @@ Papa.parse('../scripts/nrk/inland/results/innland_output.csv', {
   complete: function (results) {
     const data = results.data;
     data.forEach(function (row) {
-      localHeatLayer.addLatLng([row.latitude, row.longitude]);
+      if (row.latitude && row.longitude) {
+        localHeatLayer.addLatLng([row.latitude, row.longitude]);
+      } else {
+        console.warn('Invalid data:', row);
+      }
     });
   }
 });
