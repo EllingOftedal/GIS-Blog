@@ -51,6 +51,16 @@
       </section>
     </article>
   </main>
-  <script src="../scripts/js/leaflet-heatmap.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var script = document.createElement('script');
+    script.src = '../scripts/js/leaflet-heatmap.js';
+    script.onload = function () {
+      initializeMaps();
+    };
+    document.head.appendChild(script);
+  });
+</script>
+
 </body>
 </html>
