@@ -1,4 +1,4 @@
-name: Manual and Scheduled NRK Web Scrape
+name: Scheduled NRK Web Scrape
 
 on:
   workflow_dispatch:
@@ -47,3 +47,4 @@ jobs:
           personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./
           keep_files: true
+          disable_nojekyll: true
