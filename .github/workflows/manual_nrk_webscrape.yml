@@ -45,7 +45,7 @@ jobs:
           git config --global user.email "ellingoftedal93@gmail.com"
       
       - name: Remove .nojekyll file
-        run: rm .nojekyll
+        run: rm -f .nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
