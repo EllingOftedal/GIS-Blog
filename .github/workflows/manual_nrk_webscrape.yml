@@ -44,12 +44,10 @@ jobs:
           git config --global user.name "EllingOftedal"
           git config --global user.email "ellingoftedal93@gmail.com"
       
-      - name: Remove .nojekyll file
-        run: rm -f .nojekyll
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./
           keep_files: true
+          nojekyll: false
