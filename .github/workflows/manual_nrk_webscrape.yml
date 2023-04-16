@@ -50,4 +50,4 @@ jobs:
           personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./
           keep_files: true
-          nojekyll: false
+          disable_nojekyll: true
