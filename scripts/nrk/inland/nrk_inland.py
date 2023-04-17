@@ -87,15 +87,7 @@ def main():
     with concurrent.futures.ThreadPoolExecutor() as executor:
         results = list(tqdm(executor.map(scrape_article, article_urls, [visited_articles] * len(article_urls), [locations_data] * len(article_urls), [location_regexes] * len(article_urls)), total=len(article_urls)))
 
-    header_exists = False
-    if os.path.exists(locations_output_file):
-        with open(locations_output_file, "r", newline="", encoding="utf-8") as csvfile_output:
-            reader = csv.reader(csvfile_output)
-            try:
-                header_exists = next(reader) == ["name", "latitude", "longitude", "type", "published", "gathered", "url"]
-            except StopIteration:
-                pass
-    if not header_exists:
+    if not os.path.exists(locations_output_file):
         with open(locations_output_file, "w", newline="", encoding="utf-8") as csvfile_output:
             writer_output = csv.writer(csvfile_output)
             writer_output.writerow(["name", "latitude", "longitude", "type", "published", "gathered", "url"])
