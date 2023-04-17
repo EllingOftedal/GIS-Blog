@@ -80,7 +80,7 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
         console.warn('Invalid data:', row);
       }
