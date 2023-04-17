@@ -5,16 +5,16 @@ function updateHeatmapRadius(map, heatLayer) {
   heatLayer.setOptions({ radius: newRadius });
 }
 
-  function getMaxCount(results) {
-    let maxCount = 0;
-    results.data.forEach(function (row) {
-      const count = parseInt(row.count, 10);
-      if (count > maxCount) {
-        maxCount = count;
-      }
-    });
-    return maxCount;
-  }
+function getMaxCount(data) {
+  let maxCount = 0;
+  data.forEach(function (row) {
+    const count = parseInt(row.count, 10);
+    if (count > maxCount) {
+      maxCount = count;
+    }
+  });
+  return maxCount;
+}
 
 function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
   const normalizedWeight = count / maxCount;
@@ -55,16 +55,17 @@ function initializeMaps() {
   });
 
 // Global data map
+let globalMaxCount = 0;
 Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
   download: true,
   header: true,
   complete: function (results) {
     const data = results.data;
-    const maxCount = getMaxCount(results);
+    globalMaxCount = getMaxCount(data);
     data.forEach(function (row) {
       if (isValidData(row)) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
       } else {
         console.warn('Invalid data:', row);
       }
@@ -73,16 +74,17 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
 });
 
 // Norway inland data map
+let inlandMaxCount = 0;
 Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
   download: true,
   header: true,
   complete: function (results) {
     const data = results.data;
-    const maxCount = getMaxCount(results);
+    inlandMaxCount = getMaxCount(data);
     data.forEach(function (row) {
       if (isValidData(row)) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
       } else {
         console.warn('Invalid data:', row);
       }
