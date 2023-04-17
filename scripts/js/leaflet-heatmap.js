@@ -16,10 +16,10 @@ function updateHeatmapRadius(map, heatLayer) {
     return maxCount;
   }
 
-  function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-    const normalizedWeight = count / maxCount;
-    heatLayer.addLatLng([lat, lng, normalizedWeight]);
+  function addWeightedLatLng(heatLayer, lat, lng, count) {
+    heatLayer.addLatLng([lat, lng, count]);
   }
+
 
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
@@ -61,7 +61,7 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
       } else {
         console.warn('Invalid data:', row);
       }
@@ -78,7 +78,7 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
       } else {
         console.warn('Invalid data:', row);
       }
