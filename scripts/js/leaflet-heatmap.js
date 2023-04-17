@@ -43,7 +43,7 @@ function initializeMaps() {
       const data = results.data;
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          globalHeatLayer.addLatLng([row.latitude, row.longitude, parseFloat(row.count)]);
+          globalHeatLayer.addLatLng([row.latitude, row.longitude, row.count]);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -58,7 +58,7 @@ function initializeMaps() {
       const data = results.data;
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          localHeatLayer.addLatLng([row.latitude, row.longitude, parseFloat(row.count)]);
+          localHeatLayer.addLatLng([row.latitude, row.longitude, row.count]);
         } else {
           console.warn('Invalid data:', row);
         }
