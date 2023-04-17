@@ -92,13 +92,13 @@ def main():
         with open(locations_output_file, "r", newline="", encoding="utf-8") as csvfile_output:
             reader = csv.reader(csvfile_output)
             try:
-                header_exists = next(reader) == ["name", "latitude", "longitude", "type", "published", "gathered", "URL"]
+                header_exists = next(reader) == ["name", "latitude", "longitude", "type", "published", "gathered", "url"]
             except StopIteration:
                 pass
     if not header_exists:
         with open(locations_output_file, "w", newline="", encoding="utf-8") as csvfile_output:
             writer_output = csv.writer(csvfile_output)
-            writer_output.writerow(["name", "latitude", "longitude", "type", "published", "gathered", "URL"])
+            writer_output.writerow(["name", "latitude", "longitude", "type", "published", "gathered", "url"])
 
     with open(locations_output_file, "a", newline="", encoding="utf-8") as csvfile_output:
         writer_output = csv.writer(csvfile_output)
