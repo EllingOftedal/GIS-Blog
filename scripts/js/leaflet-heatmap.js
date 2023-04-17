@@ -16,9 +16,11 @@ function updateHeatmapRadius(map, heatLayer) {
     return maxCount;
   }
 
-  function addWeightedLatLng(heatLayer, lat, lng, count) {
-    heatLayer.addLatLng([lat, lng, count]);
-  }
+function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+  const normalizedWeight = count / maxCount;
+  heatLayer.add([lat, lng, normalizedWeight]);
+}
+
 
 
 function initializeMaps() {
@@ -61,7 +63,7 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
         console.warn('Invalid data:', row);
       }
@@ -78,7 +80,7 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
         console.warn('Invalid data:', row);
       }
