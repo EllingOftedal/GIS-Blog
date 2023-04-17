@@ -36,14 +36,14 @@ function initializeMaps() {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
 
-  Papa.parse('../scripts/nrk/global/results/countries_output.csv', {
+  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
     download: true,
     header: true,
     complete: function (results) {
       const data = results.data;
       data.forEach(function (row) {
-        if (row.Latitude && row.Longitude) {
-          globalHeatLayer.addLatLng([row.Latitude, row.Longitude]);
+        if (row.latitude && row.longitude && row.count) {
+          globalHeatLayer.addLatLng([row.latitude, row.longitude, parseFloat(row.count)]);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -51,14 +51,14 @@ function initializeMaps() {
     }
   });
 
-  Papa.parse('../scripts/nrk/inland/results/innland_output.csv', {
+  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     download: true,
     header: true,
     complete: function (results) {
       const data = results.data;
       data.forEach(function (row) {
-        if (row.latitude && row.longitude) {
-          localHeatLayer.addLatLng([row.latitude, row.longitude]);
+        if (row.latitude && row.longitude && row.count) {
+          localHeatLayer.addLatLng([row.latitude, row.longitude, parseFloat(row.count)]);
         } else {
           console.warn('Invalid data:', row);
         }
