@@ -62,7 +62,7 @@ def main():
     visited_articles = read_visited_articles()
 
     with open(locations_filter_file, "r", encoding="utf-8") as csvfile:
-        locations_data = {row["Name"]: row for row in csv.DictReader(csvfile)}
+        locations_data = {row["name"]: row for row in csv.DictReader(csvfile)}
 
     response = requests.get("https://www.nrk.no")
     soup = BeautifulSoup(response.content, "html.parser")
@@ -77,13 +77,13 @@ def main():
         with open(locations_output_file, "r", newline="", encoding="utf-8") as csvfile_output:
             reader = csv.reader(csvfile_output)
             try:
-                header_exists = next(reader) == ["Name", "Latitude", "Longitude", "Population", "Time_Date", "Gathered_Date", "URL"]
+                header_exists = next(reader) == ["name", "latitude", "longitude", "population", "time_Date", "gathered_Date", "url"]
             except StopIteration:
                 pass
     if not header_exists:
         with open(locations_output_file, "w", newline="", encoding="utf-8") as csvfile_output:
             writer_output = csv.writer(csvfile_output)
-            writer_output.writerow(["Name", "Latitude", "Longitude", "Population", "Time_Date", "Gathered_Date", "URL"])
+            writer_output.writerow(["name", "latitude", "longitude", "population", "time_Date", "gathered_Date", "url"])
 
     with open(locations_output_file, "a", newline="", encoding="utf-8") as csvfile_output:
         writer_output = csv.writer(csvfile_output)
@@ -91,7 +91,7 @@ def main():
             if matches:
                 for data in matches:
                     writer_output.writerow(
-                        [data['Name'], data['Latitude'], data['Longitude'], data['Population'], time_published, datetime.now(), url])
+                        [data['name'], data['latitude'], data['longitude'], data['population'], time_published, datetime.now(), url])
 
 
 if __name__ == "__main__":
