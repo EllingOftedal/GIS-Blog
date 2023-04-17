@@ -21,6 +21,9 @@ function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
   heatLayer.addLatLng({lat: lat, lng: lng, value: normalizedWeight});
 }
 
+function isValidData(row) {
+  return row.latitude && row.longitude && row.count;
+}
 
 
 function initializeMaps() {
