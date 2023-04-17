@@ -16,10 +16,12 @@ function updateHeatmapRadius(map, heatLayer) {
     return maxCount;
   }
 
-function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-  const logWeight = Math.log(count + 1) / Math.log(maxCount + 1);
-  heatLayer.addLatLng([lat, lng, logWeight]);
+function addWeightedLatLng(heatLayer, lat, lng, count) {
+  for (let i = 0; i < count; i++) {
+    heatLayer.addLatLng([lat, lng]);
+  }
 }
+
 
 
 function initializeMaps() {
@@ -62,13 +64,12 @@ function initializeMaps() {
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
           const count = parseInt(row.count, 10);
-          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
         } else {
           console.warn('Invalid data:', row);
         }
       });
-    }
-  });
+
 
   Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     download: true,
@@ -79,11 +80,12 @@ function initializeMaps() {
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
           const count = parseInt(row.count, 10);
-          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
         } else {
           console.warn('Invalid data:', row);
         }
       });
+
     }
   });
 }
