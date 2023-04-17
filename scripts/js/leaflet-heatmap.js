@@ -52,39 +52,39 @@ function initializeMaps() {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
 
-  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
-    download: true,
-    header: true,
-    complete: function (results) {
-      const data = results.data;
-      const maxCount = getMaxCount(data);
-      data.forEach(function (row) {
-        if (row.latitude && row.longitude && row.count) {
-          const count = parseInt(row.count, 10);
-          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
-        } else {
-          console.warn('Invalid data:', row);
-        }
-      });
-    }
-  });
+Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
+  download: true,
+  header: true,
+  complete: function (results) {
+    const data = results.data;
+    const maxCount = getMaxCount(data);
+    data.forEach(function (row) {
+      if (row.latitude && row.longitude && row.count) {
+        const count = parseInt(row.count, 10);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+      } else {
+        console.warn('Invalid data:', row);
+      }
+    });
+  }
+});
 
-  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
-    download: true,
-    header: true,
-    complete: function (results) {
-      const data = results.data;
-      const maxCount = getMaxCount(data);
-      data.forEach(function (row) {
-        if (row.latitude && row.longitude && row.count) {
-          const count = parseInt(row.count, 10);
-          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
-        } else {
-          console.warn('Invalid data:', row);
-        }
-      });
-    }
-  });
+Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
+  download: true,
+  header: true,
+  complete: function (results) {
+    const data = results.data;
+    const maxCount = getMaxCount(data);
+    data.forEach(function (row) {
+      if (row.latitude && row.longitude && row.count) {
+        const count = parseInt(row.count, 10);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+      } else {
+        console.warn('Invalid data:', row);
+      }
+    });
+  }
+});
 }
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
