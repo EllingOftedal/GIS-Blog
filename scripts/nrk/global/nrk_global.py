@@ -62,7 +62,7 @@ def main():
     visited_articles = read_visited_articles()
 
     with open(locations_filter_file, "r", encoding="utf-8") as csvfile:
-        locations_data = {row["Name"]: row for row in csv.DictReader(csvfile)}
+        locations_data = {row["name"]: row for row in csv.DictReader(csvfile)}
 
     response = requests.get("https://www.nrk.no")
     soup = BeautifulSoup(response.content, "html.parser")
