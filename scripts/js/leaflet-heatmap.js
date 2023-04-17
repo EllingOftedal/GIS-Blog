@@ -69,7 +69,7 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
         console.warn('Invalid data:', row);
       }
     });
-  } // Add the missing closing brace here
+  }
 });
 
 Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
