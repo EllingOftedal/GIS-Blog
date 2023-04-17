@@ -16,13 +16,10 @@ function updateHeatmapRadius(map, heatLayer) {
     return maxCount;
   }
 
-function addWeightedLatLng(heatLayer, lat, lng, count) {
-  for (let i = 0; i < count; i++) {
-    heatLayer.addLatLng([lat, lng]);
+  function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+    const normalizedWeight = count / maxCount;
+    heatLayer.addLatLng([lat, lng, normalizedWeight]);
   }
-}
-
-
 
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
@@ -55,38 +52,39 @@ function initializeMaps() {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
 
-Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    const maxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
-      } else {
-        console.warn('Invalid data:', row);
-      }
-    });
-  }
-});
+  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      const maxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (row.latitude && row.longitude && row.count) {
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        } else {
+          console.warn('Invalid data:', row);
+        }
+      });
+    }
+  });
 
-Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    const maxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
-      } else {
-        console.warn('Invalid data:', row);
-      }
-    });
-  }
-});
+  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      const maxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (row.latitude && row.longitude && row.count) {
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
+        } else {
+          console.warn('Invalid data:', row);
+        }
+      });
+    }
+  });
+}
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
