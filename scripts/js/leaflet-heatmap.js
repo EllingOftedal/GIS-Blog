@@ -5,6 +5,12 @@ function updateHeatmapRadius(map, heatLayer) {
   heatLayer.setOptions({ radius: newRadius });
 }
 
+function addWeightedLatLng(heatLayer, lat, lng, count) {
+  for (let i = 0; i < count; i++) {
+    heatLayer.addLatLng([lat, lng]);
+  }
+}
+
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
   var globalLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -43,7 +49,7 @@ function initializeMaps() {
       const data = results.data;
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          globalHeatLayer.addLatLng([row.latitude, row.longitude, row.count]);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), parseInt(row.count, 10));
         } else {
           console.warn('Invalid data:', row);
         }
@@ -58,7 +64,7 @@ function initializeMaps() {
       const data = results.data;
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          localHeatLayer.addLatLng([row.latitude, row.longitude, row.count]);
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), parseInt(row.count, 10));
         } else {
           console.warn('Invalid data:', row);
         }
