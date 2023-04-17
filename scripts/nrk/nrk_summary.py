@@ -19,5 +19,5 @@ def summarize_csv(input_csv_file, output_csv_file, column_name):
             writer.writerow([name, count])
 
 # Use the function for the two different CSV files
-summarize_csv('scripts/nrk/global/results/countries_output.csv', 'scripts/nrk/global/results/countries_summarized.csv', 'Name')
+summarize_csv('scripts/nrk/global/results/countries_output.csv', 'scripts/nrk/global/results/countries_summarized.csv', 'name')
 summarize_csv('scripts/nrk/inland/results/innland_output.csv', 'scripts/nrk/inland/results/innland_summarized.csv', 'name')
