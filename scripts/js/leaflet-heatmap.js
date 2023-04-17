@@ -18,7 +18,7 @@ function updateHeatmapRadius(map, heatLayer) {
 
 function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
   const normalizedWeight = count / maxCount;
-  heatLayer.add([lat, lng, normalizedWeight]);
+  heatLayer.addLatLng({lat: lat, lng: lng, value: normalizedWeight});
 }
 
 
