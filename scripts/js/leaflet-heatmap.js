@@ -61,7 +61,7 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
         console.warn('Invalid data:', row);
       }
@@ -78,13 +78,14 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     data.forEach(function (row) {
       if (row.latitude && row.longitude && row.count) {
         const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count);
+        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
         console.warn('Invalid data:', row);
       }
     });
   }
 });
+
 }
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
