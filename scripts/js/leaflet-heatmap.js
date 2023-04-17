@@ -5,9 +5,9 @@ function updateHeatmapRadius(map, heatLayer) {
   heatLayer.setOptions({ radius: newRadius });
 }
 
-  function getMaxCount(data) {
+  function getMaxCount(results) {
     let maxCount = 0;
-    data.forEach(function (row) {
+    results.data.forEach(function (row) {
       const count = parseInt(row.count, 10);
       if (count > maxCount) {
         maxCount = count;
@@ -54,14 +54,15 @@ function initializeMaps() {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
 
+// Global data map
 Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
   download: true,
   header: true,
   complete: function (results) {
     const data = results.data;
-    const maxCount = getMaxCount(data);
+    const maxCount = getMaxCount(results);
     data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
+      if (isValidData(row)) {
         const count = parseInt(row.count, 10);
         addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
@@ -71,14 +72,15 @@ Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
   }
 });
 
+// Norway inland data map
 Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
   download: true,
   header: true,
   complete: function (results) {
     const data = results.data;
-    const maxCount = getMaxCount(data);
+    const maxCount = getMaxCount(results);
     data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
+      if (isValidData(row)) {
         const count = parseInt(row.count, 10);
         addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
       } else {
