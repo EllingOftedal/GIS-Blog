@@ -5,11 +5,21 @@ function updateHeatmapRadius(map, heatLayer) {
   heatLayer.setOptions({ radius: newRadius });
 }
 
-function addWeightedLatLng(heatLayer, lat, lng, count) {
-  for (let i = 0; i < count; i++) {
-    heatLayer.addLatLng([lat, lng]);
+  function getMaxCount(data) {
+    let maxCount = 0;
+    data.forEach(function (row) {
+      const count = parseInt(row.count, 10);
+      if (count > maxCount) {
+        maxCount = count;
+      }
+    });
+    return maxCount;
   }
-}
+
+  function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+    const normalizedWeight = count / maxCount;
+    heatLayer.addLatLng([lat, lng, normalizedWeight]);
+  }
 
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
@@ -47,9 +57,11 @@ function initializeMaps() {
     header: true,
     complete: function (results) {
       const data = results.data;
+      const maxCount = getMaxCount(data);
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), parseInt(row.count, 10));
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -62,9 +74,11 @@ function initializeMaps() {
     header: true,
     complete: function (results) {
       const data = results.data;
+      const maxCount = getMaxCount(data);
       data.forEach(function (row) {
         if (row.latitude && row.longitude && row.count) {
-          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), parseInt(row.count, 10));
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
         } else {
           console.warn('Invalid data:', row);
         }
