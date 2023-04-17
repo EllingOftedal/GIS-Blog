@@ -16,10 +16,11 @@ function updateHeatmapRadius(map, heatLayer) {
     return maxCount;
   }
 
-  function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-    const normalizedWeight = count / maxCount;
-    heatLayer.addLatLng([lat, lng, normalizedWeight]);
-  }
+function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+  const logWeight = Math.log(count + 1) / Math.log(maxCount + 1);
+  heatLayer.addLatLng([lat, lng, logWeight]);
+}
+
 
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
