@@ -88,6 +88,5 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
   }
 });
 
-}
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
