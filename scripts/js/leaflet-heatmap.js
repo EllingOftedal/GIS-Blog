@@ -1,3 +1,8 @@
+function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+  const normalizedWeight = count / maxCount;
+  heatLayer.addLatLng([lat, lng, normalizedWeight]);
+}
+
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
@@ -30,6 +35,7 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
+    max: 1,
   }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -41,6 +47,7 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
+    max: 1,
   }).addTo(localMap);
 
   globalMap.on('zoomend', function () {
@@ -58,11 +65,10 @@ function initializeMaps() {
     complete: function (results) {
       const data = results.data;
       const globalMaxCount = getMaxCount(data);
-      globalHeatLayer.options.max = globalMaxCount; 
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          globalHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), count]);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -77,11 +83,10 @@ function initializeMaps() {
     complete: function (results) {
       const data = results.data;
       const inlandMaxCount = getMaxCount(data);
-      localHeatLayer.options.max = inlandMaxCount; 
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          localHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), count]); 
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
         } else {
           console.warn('Invalid data:', row);
         }
