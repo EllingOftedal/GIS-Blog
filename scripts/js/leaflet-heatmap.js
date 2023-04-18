@@ -1,3 +1,30 @@
+function updateHeatmapRadius(map, heatLayer) {
+  const baseRadius = 25;
+  const currentZoom = map.getZoom();
+  const newRadius = baseRadius * currentZoom;
+  heatLayer.setOptions({ radius: newRadius });
+}
+
+function getMaxCount(data) {
+  let maxCount = 0;
+  data.forEach(function (row) {
+    const count = parseInt(row.count, 10);
+    if (count > maxCount) {
+      maxCount = count;
+    }
+  });
+  return maxCount;
+}
+
+function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+  const normalizedWeight = count / maxCount;
+  heatLayer.addLatLng([lat, lng, normalizedWeight]);
+}
+
+function isValidData(row) {
+  return row.latitude && row.longitude && row.count;
+}
+
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
   var globalLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,7 +67,7 @@ function initializeMaps() {
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
+          add addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -69,4 +96,3 @@ function initializeMaps() {
 }
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
-
