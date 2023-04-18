@@ -1,7 +1,3 @@
-leaflet-heatmap.js:36 Uncaught SyntaxError: Unexpected identifier 'useLocalExtrema'
-
-Here is my current js so you can check if I implemented the changes successfully:
-
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
@@ -9,23 +5,20 @@ function updateHeatmapRadius(map, heatLayer) {
   heatLayer.setOptions({ radius: newRadius });
 }
 
-  function getMaxCount(data) {
-    let maxCount = 0;
-    data.forEach(function (row) {
-      const count = parseInt(row.count, 10);
-      if (count > maxCount) {
-        maxCount = count;
-      }
-    });
-    return maxCount;
-  }
-
-function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-  const normalizedWeight = count / maxCount;
-  heatLayer.addLatLng({lat: lat, lng: lng, value: normalizedWeight});
+function getMaxCount(data) {
+  let maxCount = 0;
+  data.forEach(function (row) {
+    const count = parseInt(row.count, 10);
+    if (count > maxCount) {
+      maxCount = count;
+    }
+  });
+  return maxCount;
 }
 
-
+function isValidData(row) {
+  return row.latitude && row.longitude && row.count;
+}
 
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
@@ -37,7 +30,6 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
-    useLocalExtrema: true
   }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -49,7 +41,6 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
-    useLocalExtrema: true
   }).addTo(localMap);
 
   globalMap.on('zoomend', function () {
@@ -60,40 +51,41 @@ function initializeMaps() {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
 
-Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    const maxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
-      } else {
-        console.warn('Invalid data:', row);
-      }
+  // Global data map
+  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      const globalMaxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (isValidData(row)) {
+          const count = parseInt(row.count, 10);
+          const normalizedWeight = count / globalMaxCount;
+          globalHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), normalizedWeight]);
+        } else {
+          console.warn('Invalid data:', row);
+        }
+      });
+    }
+  });
+
+  // Norway inland data map
+  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      const inlandMaxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (isValidData(row)) {
+          const count = parseInt(row.count, 10);
+          const normalizedWeight = count / inlandMaxCount;
+          localHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), normalizedWeight]);
+        }
     });
   }
 });
 
-Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    const maxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (row.latitude && row.longitude && row.count) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, maxCount);
-      } else {
-        console.warn('Invalid data:', row);
-      }
-    });
-  }
-});
-
-}
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
