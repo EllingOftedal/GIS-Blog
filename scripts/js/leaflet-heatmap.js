@@ -46,13 +46,15 @@ function initializeMaps() {
     header: true,
     complete: function (results) {
       const data = results.data;
+      let points = [];
       data.forEach(function (row) {
         if (isValidData(row)) {
-          globalHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude)]);
+          points.push([parseFloat(row.latitude), parseFloat(row.longitude)]);
         } else {
           console.warn('Invalid data:', row);
         }
       });
+      globalHeatLayer.setLatLngs(points);
     }
   });
 
@@ -62,13 +64,15 @@ function initializeMaps() {
     header: true,
     complete: function (results) {
       const data = results.data;
+      let points = [];
       data.forEach(function (row) {
         if (isValidData(row)) {
-          localHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude)]);
+          points.push([parseFloat(row.latitude), parseFloat(row.longitude)]);
         } else {
           console.warn('Invalid data:', row);
         }
       });
+      localHeatLayer.setLatLngs(points);
     }
   });
 }
