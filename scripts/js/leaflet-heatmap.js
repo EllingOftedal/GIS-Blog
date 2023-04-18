@@ -31,10 +31,10 @@ function initializeMaps() {
     attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 18
   }).addTo(globalMap);
-  var globalHeatLayer = L.weightedHeatmap([], {
+  var globalHeatLayer = L.heatLayer([], {
     radius: 25,
-    max: 1,
-    blur: 15
+    gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
+    maxOpacity: 0.4,
   }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -42,10 +42,10 @@ function initializeMaps() {
     attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 18
   }).addTo(localMap);
-  var localHeatLayer = L.weightedHeatmap([], {
+  var localHeatLayer = L.heatLayer([], {
     radius: 25,
-    max: 1,
-    blur: 15
+    gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
+    maxOpacity: 0.4,
   }).addTo(localMap);
 
   globalMap.on('zoomend', function () {
@@ -55,6 +55,7 @@ function initializeMaps() {
   localMap.on('zoomend', function () {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
+}
 
 // Global data map
 let globalMaxCount = 0;
