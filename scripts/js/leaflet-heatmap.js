@@ -32,7 +32,7 @@ function initializeMaps() {
   var globalHeatLayer = L.heatLayer([], {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
-    maxOpacity: 0.4
+    maxOpacity: 0.4,
   }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -43,7 +43,7 @@ function initializeMaps() {
   var localHeatLayer = L.heatLayer([], {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
-    maxOpacity: 0.4
+    maxOpacity: 0.4,
   }).addTo(localMap);
 
   globalMap.on('zoomend', function () {
