@@ -1,3 +1,8 @@
+function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
+  const normalizedWeight = count / maxCount;
+  heatLayer.addLatLng([lat, lng, normalizedWeight]);
+}
+
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
@@ -61,8 +66,7 @@ function initializeMaps() {
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          const normalizedWeight = count / globalMaxCount;
-          globalHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), normalizedWeight]);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -80,8 +84,7 @@ function initializeMaps() {
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          const normalizedWeight = count / inlandMaxCount;
-          localHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), normalizedWeight]);
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
         } else {
           console.warn('Invalid data:', row);
         }
