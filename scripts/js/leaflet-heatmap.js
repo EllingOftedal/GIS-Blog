@@ -1,3 +1,7 @@
+leaflet-heatmap.js:36 Uncaught SyntaxError: Unexpected identifier 'useLocalExtrema'
+
+Here is my current js so you can check if I implemented the changes successfully:
+
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
@@ -33,6 +37,7 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
+    useLocalExtrema: true
   }).addTo(globalMap);
 
   var localMap = L.map('local-map').setView([60.4720, 8.4689], 5);
@@ -44,6 +49,7 @@ function initializeMaps() {
     radius: 25,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4,
+    useLocalExtrema: true
   }).addTo(localMap);
 
   globalMap.on('zoomend', function () {
@@ -88,5 +94,6 @@ Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
   }
 });
 
+}
 
 document.addEventListener('DOMContentLoaded', initializeMaps);
