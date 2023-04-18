@@ -1,30 +1,3 @@
-function updateHeatmapRadius(map, heatLayer) {
-  const baseRadius = 25;
-  const currentZoom = map.getZoom();
-  const newRadius = baseRadius * currentZoom;
-  heatLayer.setOptions({ radius: newRadius });
-}
-
-function getMaxCount(data) {
-  let maxCount = 0;
-  data.forEach(function (row) {
-    const count = parseInt(row.count, 10);
-    if (count > maxCount) {
-      maxCount = count;
-    }
-  });
-  return maxCount;
-}
-
-function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-  const normalizedWeight = count / maxCount;
-  heatLayer.addLatLng([lat, lng, normalizedWeight]);
-}
-
-function isValidData(row) {
-  return row.latitude && row.longitude && row.count;
-}
-
 function initializeMaps() {
   var globalMap = L.map('global-map').setView([0, 0], 2);
   var globalLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -55,45 +28,45 @@ function initializeMaps() {
   localMap.on('zoomend', function () {
     updateHeatmapRadius(localMap, localHeatLayer);
   });
+
+  // Global data map
+  let globalMaxCount = 0;
+  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      globalMaxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (isValidData(row)) {
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
+        } else {
+          console.warn('Invalid data:', row);
+        }
+      });
+    }
+  });
+
+  // Norway inland data map
+  let inlandMaxCount = 0;
+  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
+    download: true,
+    header: true,
+    complete: function (results) {
+      const data = results.data;
+      inlandMaxCount = getMaxCount(data);
+      data.forEach(function (row) {
+        if (isValidData(row)) {
+          const count = parseInt(row.count, 10);
+          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
+        } else {
+          console.warn('Invalid data:', row);
+        }
+      });
+    }
+  });
 }
 
-// Global data map
-let globalMaxCount = 0;
-Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    globalMaxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (isValidData(row)) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
-      } else {
-        console.warn('Invalid data:', row);
-      }
-    });
-  }
-});
-
-// Norway inland data map
-let inlandMaxCount = 0;
-Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
-  download: true,
-  header: true,
-  complete: function (results) {
-    const data = results.data;
-    inlandMaxCount = getMaxCount(data);
-    data.forEach(function (row) {
-      if (isValidData(row)) {
-        const count = parseInt(row.count, 10);
-        addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
-      } else {
-        console.warn('Invalid data:', row);
-      }
-    });
-  }
-});
-
-
 document.addEventListener('DOMContentLoaded', initializeMaps);
+
