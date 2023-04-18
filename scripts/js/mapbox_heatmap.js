@@ -30,7 +30,7 @@ function csvToGeoJSON(csvData) {
 }
 
 function initializeMaps() {
-  mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaW5nb2Z0ZWRhbCIsImEiOiJjbGdtdjV4YWowOWpzM2xvZWc1cmY3YmR1In0.DNvdC-JdrVZdItHSmZUapg';
 
   const map = new mapboxgl.Map({
     container: 'map', // container id
