@@ -55,8 +55,24 @@ function initializeMaps() {
           type: 'heatmap',
           source: 'global-heatmap-source',
           paint: {
-            // Heatmap paint properties
-          },
+            // Add the heatmap-color property here
+            'heatmap-color': [
+              'interpolate',
+              ['linear'],
+              ['heatmap-density'],
+              0,
+              'rgba(33,102,172,0)',
+              0.1,
+              'rgb(103,169,207)',
+              0.3,
+              'rgb(209,229,240)',
+              0.5,
+              'rgb(253,219,199)',
+              0.7,
+              'rgb(239,138,98)',
+              0.9,
+              'rgb(178,24,43)',
+            ],
         });
       },
     });
@@ -80,8 +96,24 @@ function initializeMaps() {
           type: 'heatmap',
           source: 'local-heatmap-source',
           paint: {
-            // Heatmap paint properties
-          },
+            // Add the heatmap-color property here
+            'heatmap-color': [
+              'interpolate',
+              ['linear'],
+              ['heatmap-density'],
+              0,
+              'rgba(33,102,172,0)',
+              0.1,
+              'rgb(103,169,207)',
+              0.3,
+              'rgb(209,229,240)',
+              0.5,
+              'rgb(253,219,199)',
+              0.7,
+              'rgb(239,138,98)',
+              0.9,
+              'rgb(178,24,43)',
+            ],
         });
       },
     });
