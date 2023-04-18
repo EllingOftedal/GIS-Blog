@@ -1,11 +1,3 @@
-function addWeightedLatLng(heatLayer, lat, lng, count, maxCount) {
-  const logMaxCount = Math.log(maxCount + 1);
-  const logCount = Math.log(count + 1);
-  const normalizedWeight = logCount / logMaxCount;
-  heatLayer.addLatLng([lat, lng, normalizedWeight]);
-}
-
-
 function updateHeatmapRadius(map, heatLayer) {
   const baseRadius = 25;
   const currentZoom = map.getZoom();
@@ -66,10 +58,11 @@ function initializeMaps() {
     complete: function (results) {
       const data = results.data;
       const globalMaxCount = getMaxCount(data);
+      globalHeatLayer.options.max = globalMaxCount; 
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          addWeightedLatLng(globalHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, globalMaxCount);
+          globalHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), count]);
         } else {
           console.warn('Invalid data:', row);
         }
@@ -84,10 +77,11 @@ function initializeMaps() {
     complete: function (results) {
       const data = results.data;
       const inlandMaxCount = getMaxCount(data);
+      localHeatLayer.options.max = inlandMaxCount; 
       data.forEach(function (row) {
         if (isValidData(row)) {
           const count = parseInt(row.count, 10);
-          addWeightedLatLng(localHeatLayer, parseFloat(row.latitude), parseFloat(row.longitude), count, inlandMaxCount);
+          localHeatLayer.addLatLng([parseFloat(row.latitude), parseFloat(row.longitude), count]); 
         } else {
           console.warn('Invalid data:', row);
         }
