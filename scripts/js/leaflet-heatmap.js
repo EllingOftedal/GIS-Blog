@@ -52,7 +52,7 @@ function initializeMaps() {
   });
 
   // Global data map
-  Papa.parse('scripts/nrk/global/results/countries_summarized.csv', {
+  Papa.parse('../scripts/nrk/global/results/countries_summarized.csv', {
     download: true,
     header: true,
     complete: function (results) {
@@ -71,7 +71,7 @@ function initializeMaps() {
   });
 
   // Norway inland data map
-  Papa.parse('scripts/nrk/inland/results/innland_summarized.csv', {
+  Papa.parse('../scripts/nrk/inland/results/innland_summarized.csv', {
     download: true,
     header: true,
     complete: function (results) {
