@@ -1,18 +1,40 @@
-function initializeMaps() {
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaW5nb2Z0ZWRhbCIsImEiOiJjbGdtdjV4YWowOWpzM2xvZWc1cmY3YmR1In0.DNvdC-JdrVZdItHSmZUapg';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaW5nb2Z0ZWRhbCIsImEiOiJjbGdtdjV4YWowOWpzM2xvZWc1cmY3YmR1In0.DNvdC-JdrVZdItHSmZUapg';
 
+function csvToGeoJSON(csvData) {
+  const geoJSONData = {
+    type: 'FeatureCollection',
+    features: [],
+  };
+
+  csvData.forEach((row) => {
+    if (row.latitude && row.longitude) {
+      geoJSONData.features.push({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: [parseFloat(row.longitude), parseFloat(row.latitude)],
+        },
+        properties: {},
+      });
+    }
+  });
+
+  return geoJSONData;
+}
+
+function initializeMaps() {
   const globalMap = new mapboxgl.Map({
-    container: 'global-map', // container id
-    style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-    center: [0, 0], // starting position [lng, lat]
-    zoom: 2, // starting zoom
+    container: 'global-map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [0, 0],
+    zoom: 2
   });
 
   const localMap = new mapboxgl.Map({
-    container: 'local-map', // container id
-    style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-    center: [8.4689, 60.4720], // starting position [lng, lat]
-    zoom: 5, // starting zoom
+    container: 'local-map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [8.4689, 60.4720],
+    zoom: 5
   });
 
   globalMap.on('load', () => {
@@ -28,7 +50,14 @@ function initializeMaps() {
           data: globalGeoJSON,
         });
 
-        addHeatmapLayer(globalMap, 'global-heatmap-source');
+        globalMap.addLayer({
+          id: 'global-heatmap',
+          type: 'heatmap',
+          source: 'global-heatmap-source',
+          paint: {
+            // Heatmap paint properties
+          },
+        });
       },
     });
   });
@@ -46,40 +75,16 @@ function initializeMaps() {
           data: localGeoJSON,
         });
 
-        addHeatmapLayer(localMap, 'local-heatmap-source');
+        localMap.addLayer({
+          id: 'local-heatmap',
+          type: 'heatmap',
+          source: 'local-heatmap-source',
+          paint: {
+            // Heatmap paint properties
+          },
+        });
       },
     });
-  });
-}
-
-function addHeatmapLayer(map, source) {
-  map.addLayer({
-    id: source + '-heatmap',
-    type: 'heatmap',
-    source: source,
-    paint: {
-      'heatmap-weight': 1,
-      'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 0, 1, 9, 3],
-      'heatmap-color': [
-        'interpolate',
-        ['linear'],
-        ['heatmap-density'],
-        0,
-        'rgba(33,102,172,0)',
-        0.2,
-        'rgb(103,169,207)',
-        0.4,
-        'rgb(209,229,240)',
-        0.6,
-        'rgb(253,219,199)',
-        0.8,
-        'rgb(239,138,98)',
-        1,
-        'rgb(178,24,43)',
-      ],
-      'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 0, 2, 9, 20],
-      'heatmap-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 9, 0.5],
-    },
   });
 }
 
