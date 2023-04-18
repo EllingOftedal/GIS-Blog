@@ -1,5 +1,5 @@
 function updateHeatmapRadius(map, heatLayer) {
-  const baseRadius = 25;
+  const baseRadius = 1;
   const currentZoom = map.getZoom();
   const newRadius = baseRadius * currentZoom;
   heatLayer.setOptions({ radius: newRadius });
@@ -16,7 +16,7 @@ function initializeMaps() {
     maxZoom: 18
   }).addTo(globalMap);
   var globalHeatLayer = L.heatLayer([], {
-    radius: 25,
+    radius: 1,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4
   }).addTo(globalMap);
@@ -27,7 +27,7 @@ function initializeMaps() {
     maxZoom: 18
   }).addTo(localMap);
   var localHeatLayer = L.heatLayer([], {
-    radius: 25,
+    radius: 1,
     gradient: {0.0: '#00ccff', 0.5: '#ff9900', 1.0: '#ff0000'},
     maxOpacity: 0.4
   }).addTo(localMap);
