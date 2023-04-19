@@ -60,8 +60,6 @@ function initializeMaps() {
               'interpolate',
               ['linear'],
               ['heatmap-density'],
-              0,
-              'rgba(33,102,172,0)',
               0.1,
               '#00ffd4',
               0.3,
@@ -75,6 +73,7 @@ function initializeMaps() {
               0.95,
               '#ffaa00',
             ],
+            'heatmap-opacity': 0.4,
           }
         });
       },
@@ -104,8 +103,6 @@ function initializeMaps() {
               'interpolate',
               ['linear'],
               ['heatmap-density'],
-              0,
-              'rgba(33,102,172,0)',
               0.1,
               '#00ffd4',
               0.3,
@@ -119,6 +116,7 @@ function initializeMaps() {
               0.95,
               '#ffaa00',
             ],
+            'heatmap-opacity': 0.4,
           }
         });
       },
