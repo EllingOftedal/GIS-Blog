@@ -52,14 +52,16 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             if soup.find(class_=excluded_class):
                 return url, [], ""
 
-        text = ""
+        text = []
         for tag in soup.find_all(True):
             if tag.name == "p":
-                text += " " + tag.get_text()
+                text.append(tag.get_text())
             elif tag.name == "h1":
-                text += " " + tag.get_text()
+                text.append(tag.get_text())
             elif tag not in excluded_classes and not any([excluded in tag.get("class", []) for excluded in excluded_classes]):
-                text += " " + tag.get_text()
+                text.append(tag.get_text())
+
+        text = " ".join(text)
 
         for regex in location_regexes:
             match = regex.search(text)
@@ -81,6 +83,7 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited.writerow([url, datetime.now()])
 
     return url, matches, time_published
+
 
 
 
