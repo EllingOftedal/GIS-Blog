@@ -48,18 +48,6 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
 
-        for excluded_class in excluded_classes:
-            if soup.find(class_=excluded_class):
-                visited_articles.add(url)
-                with open(visited_articles_file, "a+", newline="", encoding="utf-8") as csvfile_visited:
-                    writer_visited = csv.writer(csvfile_visited)
-                    writer_visited.writerow([url, datetime.now()])
-                return url, [], ""
-
-        for excluded_class in excluded_classes:
-            for tag in soup.find_all(class_=excluded_class):
-                tag.decompose()
-
         text = soup.get_text()
         for regex in location_regexes:
             match = regex.search(text)
@@ -67,6 +55,16 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
                 location_name = match.group(1)
                 if location_name in locations_data:
                     matches.append(locations_data[location_name])
+
+        for excluded_class in excluded_classes:
+            for tag in soup.find_all(class_=excluded_class):
+                tag_text = tag.get_text()
+                for regex in location_regexes:
+                    if regex.search(tag_text):
+                        location_name = regex.search(tag_text).group(1)
+                        if location_name in locations_data:
+                            matches.append(locations_data[location_name])
+                tag.decompose()
 
         time_published_element = soup.find("time", class_="datetime-absolute datePublished")
         if time_published_element:
@@ -81,8 +79,6 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited.writerow([url, datetime.now()])
 
     return url, matches, time_published
-
-
 
 
 
