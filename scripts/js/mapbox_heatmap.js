@@ -25,16 +25,16 @@ function csvToGeoJSON(csvData) {
 function initializeMaps() {
   const globalMap = new mapboxgl.Map({
     container: 'global-map',
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/ellingoftedal/clgmxuvcx00d901mjc4t85osd',
     center: [0, 0],
     zoom: 2
   });
 
   const localMap = new mapboxgl.Map({
     container: 'local-map',
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/ellingoftedal/clgmxuvcx00d901mjc4t85osd',
     center: [8.4689, 60.4720],
-    zoom: 5
+    zoom: 4
   });
 
   globalMap.on('load', () => {
