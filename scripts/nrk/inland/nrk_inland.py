@@ -47,12 +47,17 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
     if url not in visited_articles:
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
-        
+
+        text = ""
+        for tag in soup.find_all(True):
+            if tag.name == "p":
+                text += " " + tag.get_text()
+            elif tag.name == "h1":
+                text += " " + tag.get_text()
+
         for excluded_class in excluded_classes:
             if soup.find(class_=excluded_class):
                 return url, [], ""
-
-        text = soup.get_text()
 
         for regex in location_regexes:
             match = regex.search(text)
