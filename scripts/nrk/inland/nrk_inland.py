@@ -50,19 +50,17 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
 
         for excluded_class in excluded_classes:
             if soup.find(class_=excluded_class):
+                visited_articles.add(url)
+                with open(visited_articles_file, "a+", newline="", encoding="utf-8") as csvfile_visited:
+                    writer_visited = csv.writer(csvfile_visited)
+                    writer_visited.writerow([url, datetime.now()])
                 return url, [], ""
 
-        text = []
-        for tag in soup.find_all(True):
-            if tag.name == "p":
-                text.append(tag.get_text())
-            elif tag.name == "h1":
-                text.append(tag.get_text())
-            elif tag not in excluded_classes and not any([excluded in tag.get("class", []) for excluded in excluded_classes]):
-                text.append(tag.get_text())
+        for excluded_class in excluded_classes:
+            for tag in soup.find_all(class_=excluded_class):
+                tag.decompose()
 
-        text = " ".join(text)
-
+        text = soup.get_text()
         for regex in location_regexes:
             match = regex.search(text)
             if match:
@@ -83,6 +81,7 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited.writerow([url, datetime.now()])
 
     return url, matches, time_published
+
 
 
 
