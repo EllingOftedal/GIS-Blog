@@ -41,11 +41,17 @@ def build_location_regex(locations_data):
 
 
 def scrape_article(url, visited_articles, locations_data, location_regexes):
+    excluded_classes = ["skin-border", "widget-title", "nrk-bottommenu-info"]
     matches = []
     time_published = ""
     if url not in visited_articles:
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
+        
+        for excluded_class in excluded_classes:
+            if soup.find(class_=excluded_class):
+                return url, [], ""
+
         text = soup.get_text()
 
         for regex in location_regexes:
@@ -68,6 +74,7 @@ def scrape_article(url, visited_articles, locations_data, location_regexes):
             writer_visited.writerow([url, datetime.now()])
 
     return url, matches, time_published
+
 
 
 
