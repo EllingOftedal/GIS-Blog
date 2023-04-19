@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaW5nb2Z0ZWRhbCIsImEiOiJjbGdtdjV4YWowOWpzM2xvZWc1cmY3YmR1In0.DNvdC-JdrVZdItHSmZUapg';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaW5nb2Z0ZWRhbCIsImEiOiJjbGdtdXo4bzAwOTF6M2ZqcW84c3czazJwIn0.kZM6u2seoGNX19m6tE9uIQ';
 
 function csvToGeoJSON(csvData) {
   const geoJSONData = {
