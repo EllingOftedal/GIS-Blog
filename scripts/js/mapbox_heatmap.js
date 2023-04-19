@@ -73,6 +73,7 @@ function initializeMaps() {
               0.9,
               'rgb(178,24,43)',
             ],
+          }
         });
       },
     });
@@ -114,6 +115,7 @@ function initializeMaps() {
               0.9,
               'rgb(178,24,43)',
             ],
+          }
         });
       },
     });
