@@ -15367,3 +15367,576 @@ Vestland,60.912912622641649,5.969116966557067,Fylke,10:24-03/14-2022,2023-05-03 
 Bergen,60.359802393828737,5.370998003415741,Kommune,10:24-03/14-2022,2023-05-03 00:30:50.056977,https://www.nrk.no/norge/xl/skolevegrerne-1.15845096
 Stavanger,59.139791592364084,5.785538371545174,Kommune,10:24-03/14-2022,2023-05-03 00:30:50.056984,https://www.nrk.no/norge/xl/skolevegrerne-1.15845096
 Hole,60.044852943708591,10.294729273084318,Kommune,10:24-03/14-2022,2023-05-03 00:30:50.056990,https://www.nrk.no/norge/xl/skolevegrerne-1.15845096
+Agder,58.533697190544508,7.710662305515249,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210091,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Oslo,59.975392335668623,10.738759025694977,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210110,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210118,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210126,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210135,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210143,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Rogaland,59.035166461243975,5.868373444721857,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210151,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Innlandet,61.439147777644699,10.441060410553726,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210158,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Viken,60.043864112215608,9.972647764726981,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210165,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210172,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210179,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Nord,60.438027142271977,11.581759132661137,Kommune,11:29-05/03-2023,2023-05-03 12:10:41.210187,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Bergen,60.359802393828737,5.370998003415741,Kommune,11:29-05/03-2023,2023-05-03 12:10:41.210195,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Førde,61.452175900000000,5.857172500000000,town,11:29-05/03-2023,2023-05-03 12:10:41.210203,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210211,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210218,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210225,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:29-05/03-2023,2023-05-03 12:10:41.210232,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Bergen,60.359802393828737,5.370998003415741,Kommune,11:29-05/03-2023,2023-05-03 12:10:41.210239,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Førde,61.452175900000000,5.857172500000000,town,11:29-05/03-2023,2023-05-03 12:10:41.210246,https://www.nrk.no/vestland/krangel-om-middagstallerkenen-pa-norsk-sokkel-1.16394443
+Agder,58.533697190544508,7.710662305515249,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210254,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Oslo,59.975392335668623,10.738759025694977,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210261,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210267,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210274,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210281,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210288,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Rogaland,59.035166461243975,5.868373444721857,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210296,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Innlandet,61.439147777644699,10.441060410553726,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210303,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Viken,60.043864112215608,9.972647764726981,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210309,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210316,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:01-05/03-2023,2023-05-03 12:10:41.210322,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Nord,60.438027142271977,11.581759132661137,Kommune,11:01-05/03-2023,2023-05-03 12:10:41.210329,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,11:01-05/03-2023,2023-05-03 12:10:41.210336,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Bergen,60.359802393828737,5.370998003415741,Kommune,11:01-05/03-2023,2023-05-03 12:10:41.210343,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Ålesund,62.727362605814946,6.325934371724508,Kommune,11:01-05/03-2023,2023-05-03 12:10:41.210350,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Strand,59.031843321787839,6.023107147512158,Kommune,11:01-05/03-2023,2023-05-03 12:10:41.210358,https://www.nrk.no/norge/minst-en-drept-i-skoleskyting-i-serbia-1.16395810
+Agder,58.533697190544508,7.710662305515249,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210366,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Oslo,59.975392335668623,10.738759025694977,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210373,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210380,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210388,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210395,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210403,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Rogaland,59.035166461243975,5.868373444721857,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210410,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Innlandet,61.439147777644699,10.441060410553726,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210417,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Viken,60.043864112215608,9.972647764726981,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210424,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Nordland,67.123475111553162,13.908069345866942,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210431,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Vestland,60.912912622641649,5.969116966557067,Fylke,13:13-05/03-2023,2023-05-03 12:10:41.210473,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Sør,60.223645867561061,11.753809128115085,Kommune,13:13-05/03-2023,2023-05-03 12:10:41.210481,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Nord,60.438027142271977,11.581759132661137,Kommune,13:13-05/03-2023,2023-05-03 12:10:41.210489,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,13:13-05/03-2023,2023-05-03 12:10:41.210495,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Bergen,60.359802393828737,5.370998003415741,Kommune,13:13-05/03-2023,2023-05-03 12:10:41.210502,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Ålesund,62.727362605814946,6.325934371724508,Kommune,13:13-05/03-2023,2023-05-03 12:10:41.210509,https://www.nrk.no/norge/amnesty-trekker-tilbake-ki-bilder-og-beklager-1.16394409
+Agder,58.533697190544508,7.710662305515249,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210517,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Oslo,59.975392335668623,10.738759025694977,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210524,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210531,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210538,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210546,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210553,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Rogaland,59.035166461243975,5.868373444721857,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210561,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Innlandet,61.439147777644699,10.441060410553726,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210568,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Viken,60.043864112215608,9.972647764726981,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210575,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Nordland,67.123475111553162,13.908069345866942,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210582,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Vestland,60.912912622641649,5.969116966557067,Fylke,13:50-05/03-2023,2023-05-03 12:10:41.210589,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Nord,60.438027142271977,11.581759132661137,Kommune,13:50-05/03-2023,2023-05-03 12:10:41.210596,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,13:50-05/03-2023,2023-05-03 12:10:41.210603,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Bergen,60.359802393828737,5.370998003415741,Kommune,13:50-05/03-2023,2023-05-03 12:10:41.210610,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Strand,59.031843321787839,6.023107147512158,Kommune,13:50-05/03-2023,2023-05-03 12:10:41.210617,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Kirkenes,69.727147799999997,30.044897100000000,town,13:50-05/03-2023,2023-05-03 12:10:41.210624,https://www.nrk.no/urix/russland-hevder-ukraina-provde-a-angripe-kreml-med-droner-1.16396113
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.210632,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.210638,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.210644,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.210650,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.210657,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.210663,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.210669,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.210676,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.210682,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.210688,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.210694,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Osterøy,60.521114820022824,5.523315636738417,Kommune,Unknown,2023-05-03 12:10:41.210701,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Bergen,60.359802393828737,5.370998003415741,Kommune,Unknown,2023-05-03 12:10:41.210708,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Førde,61.452175900000000,5.857172500000000,town,Unknown,2023-05-03 12:10:41.210714,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.210720,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.210727,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.210733,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Bergen,60.359802393828737,5.370998003415741,Kommune,Unknown,2023-05-03 12:10:41.210739,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Førde,61.452175900000000,5.857172500000000,town,Unknown,2023-05-03 12:10:41.210746,https://www.nrk.no/vestland/anker-ikke-bildrapsdom-1.16396106
+Agder,58.533697190544508,7.710662305515249,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210753,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Oslo,59.975392335668623,10.738759025694977,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210760,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210766,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210773,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210780,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210787,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Rogaland,59.035166461243975,5.868373444721857,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210807,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Innlandet,61.439147777644699,10.441060410553726,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210813,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Viken,60.043864112215608,9.972647764726981,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210820,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Nordland,67.123475111553162,13.908069345866942,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210826,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Vestland,60.912912622641649,5.969116966557067,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210833,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Stavanger,59.139791592364084,5.785538371545174,Kommune,12:37-05/03-2023,2023-05-03 12:10:41.210839,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Haugesund,59.470297789523585,5.195645569537758,Kommune,12:37-05/03-2023,2023-05-03 12:10:41.210847,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Rogaland,59.035166461243975,5.868373444721857,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210853,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Rogaland,59.035166461243975,5.868373444721857,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210860,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Rogaland,59.035166461243975,5.868373444721857,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210866,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Rogaland,59.035166461243975,5.868373444721857,Fylke,12:37-05/03-2023,2023-05-03 12:10:41.210872,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Stavanger,59.139791592364084,5.785538371545174,Kommune,12:37-05/03-2023,2023-05-03 12:10:41.210878,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Haugesund,59.470297789523585,5.195645569537758,Kommune,12:37-05/03-2023,2023-05-03 12:10:41.210885,https://www.nrk.no/rogaland/stadig-flere-leier-bunad-1.16390740
+Agder,58.533697190544508,7.710662305515249,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210892,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Oslo,59.975392335668623,10.738759025694977,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210899,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210906,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210914,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210921,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210928,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Rogaland,59.035166461243975,5.868373444721857,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210936,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Innlandet,61.439147777644699,10.441060410553726,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210943,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Viken,60.043864112215608,9.972647764726981,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210950,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Nordland,67.123475111553162,13.908069345866942,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210957,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Vestland,60.912912622641649,5.969116966557067,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210964,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Bergen,60.359802393828737,5.370998003415741,Kommune,10:21-05/03-2023,2023-05-03 12:10:41.210971,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Ålesund,62.727362605814946,6.325934371724508,Kommune,10:21-05/03-2023,2023-05-03 12:10:41.210978,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Førde,61.452175900000000,5.857172500000000,town,10:21-05/03-2023,2023-05-03 12:10:41.210985,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Vestland,60.912912622641649,5.969116966557067,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210992,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Vestland,60.912912622641649,5.969116966557067,Fylke,10:21-05/03-2023,2023-05-03 12:10:41.210999,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Bergen,60.359802393828737,5.370998003415741,Kommune,10:21-05/03-2023,2023-05-03 12:10:41.211006,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Førde,61.452175900000000,5.857172500000000,town,10:21-05/03-2023,2023-05-03 12:10:41.211013,https://www.nrk.no/vestland/krf-vil-innskrenke-skjenketidene-i-bergen-pa-17.-mai-1.16388568
+Agder,58.533697190544508,7.710662305515249,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211022,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Oslo,59.975392335668623,10.738759025694977,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211029,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211037,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211045,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211054,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211063,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Rogaland,59.035166461243975,5.868373444721857,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211071,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Innlandet,61.439147777644699,10.441060410553726,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211079,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Viken,60.043864112215608,9.972647764726981,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211087,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211094,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211102,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Nord,60.438027142271977,11.581759132661137,Kommune,11:55-05/03-2023,2023-05-03 12:10:41.211110,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Tromsø,69.744523696815563,18.630325054634508,Kommune,11:55-05/03-2023,2023-05-03 12:10:41.211131,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Alta,70.014256568790699,23.220220219555088,Kommune,11:55-05/03-2023,2023-05-03 12:10:41.211140,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Kirkenes,69.727147799999997,30.044897100000000,town,11:55-05/03-2023,2023-05-03 12:10:41.211148,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Svalbard,78.719851899999995,20.349332799999999,region,11:55-05/03-2023,2023-05-03 12:10:41.211156,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211164,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211172,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211180,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:55-05/03-2023,2023-05-03 12:10:41.211188,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Tromsø,69.744523696815563,18.630325054634508,Kommune,11:55-05/03-2023,2023-05-03 12:10:41.211196,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Alta,70.014256568790699,23.220220219555088,Kommune,11:55-05/03-2023,2023-05-03 12:10:41.211204,https://www.nrk.no/tromsogfinnmark/fn-verdensdag-for-pressefrihet_-vil-lage-russisk-journalistbase-i-norsk-by-1.16395623
+Agder,58.533697190544508,7.710662305515249,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211212,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Oslo,59.975392335668623,10.738759025694977,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211219,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211225,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211232,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211239,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211246,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Rogaland,59.035166461243975,5.868373444721857,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211253,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Innlandet,61.439147777644699,10.441060410553726,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211260,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Viken,60.043864112215608,9.972647764726981,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211266,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Nordland,67.123475111553162,13.908069345866942,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211273,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Vestland,60.912912622641649,5.969116966557067,Fylke,10:59-05/03-2023,2023-05-03 12:10:41.211279,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Nord,60.438027142271977,11.581759132661137,Kommune,10:59-05/03-2023,2023-05-03 12:10:41.211286,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,10:59-05/03-2023,2023-05-03 12:10:41.211293,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Bergen,60.359802393828737,5.370998003415741,Kommune,10:59-05/03-2023,2023-05-03 12:10:41.211299,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Strand,59.031843321787839,6.023107147512158,Kommune,10:59-05/03-2023,2023-05-03 12:10:41.211306,https://www.nrk.no/urix/zelenskyj-pa-nordisk-toppmote-i-finland-1.16395588
+Agder,58.533697190544508,7.710662305515249,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211313,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Oslo,59.975392335668623,10.738759025694977,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211320,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211327,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211334,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211341,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211347,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Rogaland,59.035166461243975,5.868373444721857,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211354,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Innlandet,61.439147777644699,10.441060410553726,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211361,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Viken,60.043864112215608,9.972647764726981,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211368,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Nordland,67.123475111553162,13.908069345866942,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211374,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Vestland,60.912912622641649,5.969116966557067,Fylke,09:22-05/03-2023,2023-05-03 12:10:41.211381,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Nord,60.438027142271977,11.581759132661137,Kommune,09:22-05/03-2023,2023-05-03 12:10:41.211387,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,09:22-05/03-2023,2023-05-03 12:10:41.211394,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Bergen,60.359802393828737,5.370998003415741,Kommune,09:22-05/03-2023,2023-05-03 12:10:41.211401,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Ålesund,62.727362605814946,6.325934371724508,Kommune,09:22-05/03-2023,2023-05-03 12:10:41.211407,https://www.nrk.no/norge/forsvarskommisjonen-legg-fram-rapport-1.16395169
+Agder,58.533697190544508,7.710662305515249,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211415,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Oslo,59.975392335668623,10.738759025694977,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211422,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211429,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211448,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211456,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211464,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Rogaland,59.035166461243975,5.868373444721857,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211471,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Innlandet,61.439147777644699,10.441060410553726,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211478,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Viken,60.043864112215608,9.972647764726981,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211485,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Nordland,67.123475111553162,13.908069345866942,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211492,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Vestland,60.912912622641649,5.969116966557067,Fylke,15:35-05/02-2023,2023-05-03 12:10:41.211499,https://www.nrk.no/ytring/norsk-vasskraft-kan-bli-eksportert-som-olje-og-gass-1.16379580
+Agder,58.533697190544508,7.710662305515249,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211506,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211514,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211522,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211530,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211538,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211547,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Rogaland,59.035166461243975,5.868373444721857,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211555,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Innlandet,61.439147777644699,10.441060410553726,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211563,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Viken,60.043864112215608,9.972647764726981,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211571,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Nordland,67.123475111553162,13.908069345866942,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211579,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Vestland,60.912912622641649,5.969116966557067,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211587,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Ringerike,60.294478897341889,10.087928435486599,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211595,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Hole,60.044852943708591,10.294729273084318,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211604,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Fredrikstad,59.215920902593609,10.871904161116440,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211612,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Drammen,59.709626124511423,10.166904323065197,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211621,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Hønefoss,60.166208200000000,10.255485999999999,town,07:17-05/03-2023,2023-05-03 12:10:41.211629,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Sandvika,59.892115799999999,10.524991399999999,town,07:17-05/03-2023,2023-05-03 12:10:41.211638,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211646,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Viken,60.043864112215608,9.972647764726981,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211654,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211662,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Viken,60.043864112215608,9.972647764726981,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211669,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211678,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Viken,60.043864112215608,9.972647764726981,Fylke,07:17-05/03-2023,2023-05-03 12:10:41.211685,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Fredrikstad,59.215920902593609,10.871904161116440,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211693,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Drammen,59.709626124511423,10.166904323065197,Kommune,07:17-05/03-2023,2023-05-03 12:10:41.211701,https://www.nrk.no/osloogviken/fant-verdens-eldste-runestein-_svingerudsteinen_-i-hole-_-vil-grave-etter-flere-svar-1.16346326
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.211712,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.211719,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.211726,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.211733,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.211741,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.211760,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.211768,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.211775,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.211783,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.211790,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.211797,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trondheim,63.369738815446532,10.396368817141465,Kommune,Unknown,2023-05-03 12:10:41.211804,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.211811,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.211819,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.211827,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.211834,https://www.nrk.no/trondelag/etterlyser-vitner-etter-voldssak-i-trondheim-1.16395831#1.16395831.1.16395831
+Agder,58.533697190544508,7.710662305515249,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211844,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Oslo,59.975392335668623,10.738759025694977,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211852,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211860,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211868,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211877,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211886,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Rogaland,59.035166461243975,5.868373444721857,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211895,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Innlandet,61.439147777644699,10.441060410553726,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211903,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Viken,60.043864112215608,9.972647764726981,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211911,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Nordland,67.123475111553162,13.908069345866942,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211919,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Vestland,60.912912622641649,5.969116966557067,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211927,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Sunndal,62.594525068251883,8.703219487947607,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211936,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Molde,62.760510419088050,7.533390871603315,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211945,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Ålesund,62.727362605814946,6.325934371724508,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211953,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Kristiansund,63.253000757977183,7.447023625449559,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211962,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Stor,61.589018853551003,10.784546125788877,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211971,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211979,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.211988,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Ålesund,62.727362605814946,6.325934371724508,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.211996,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.212004,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,13:34-05/03-2023,2023-05-03 12:10:41.212014,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Molde,62.760510419088050,7.533390871603315,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.212023,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Ålesund,62.727362605814946,6.325934371724508,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.212031,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Kristiansund,63.253000757977183,7.447023625449559,Kommune,13:34-05/03-2023,2023-05-03 12:10:41.212039,https://www.nrk.no/mr/mann-i-alesund-doydde-etter-basketak-med-politiet-_-spesialeininga-har-fatt-endeleg-obduksjonsrapport-1.16346711
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.212048,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.212068,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212076,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.212084,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.212091,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.212099,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.212106,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.212113,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.212120,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.212127,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212134,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Bergen,60.359802393828737,5.370998003415741,Kommune,Unknown,2023-05-03 12:10:41.212141,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Voss,60.682666135343680,6.471347053420748,Kommune,Unknown,2023-05-03 12:10:41.212149,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Førde,61.452175900000000,5.857172500000000,town,Unknown,2023-05-03 12:10:41.212155,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212163,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212170,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212177,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Bergen,60.359802393828737,5.370998003415741,Kommune,Unknown,2023-05-03 12:10:41.212184,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Førde,61.452175900000000,5.857172500000000,town,Unknown,2023-05-03 12:10:41.212191,https://www.nrk.no/vestland/person-sat-fast-i-tre-etter-fallskjermhopp-1.16395624#1.16395624.1.16395624
+Agder,58.533697190544508,7.710662305515249,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212198,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Oslo,59.975392335668623,10.738759025694977,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212205,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212212,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212220,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212228,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212235,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Rogaland,59.035166461243975,5.868373444721857,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212243,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Innlandet,61.439147777644699,10.441060410553726,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212250,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Viken,60.043864112215608,9.972647764726981,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212257,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Nordland,67.123475111553162,13.908069345866942,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212263,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Vestland,60.912912622641649,5.969116966557067,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212271,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Åmli,58.803870072685449,8.339255242660593,Kommune,08:23-05/03-2023,2023-05-03 12:10:41.212278,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Grimstad,58.284567174837427,8.671992097586271,Kommune,08:23-05/03-2023,2023-05-03 12:10:41.212286,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Flekkefjord,58.238420023461067,6.523838906004956,Kommune,08:23-05/03-2023,2023-05-03 12:10:41.212293,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Stor,61.589018853551003,10.784546125788877,Kommune,08:23-05/03-2023,2023-05-03 12:10:41.212301,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Agder,58.533697190544508,7.710662305515249,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212308,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Agder,58.533697190544508,7.710662305515249,Fylke,08:23-05/03-2023,2023-05-03 12:10:41.212315,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Åmli,58.803870072685449,8.339255242660593,Kommune,08:23-05/03-2023,2023-05-03 12:10:41.212322,https://www.nrk.no/sorlandet/stor-mangel-pa-sykepleiere_-_-bekymret-for-sommeren-1.16395140
+Agder,58.533697190544508,7.710662305515249,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212330,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212337,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212345,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212352,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212361,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212368,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Rogaland,59.035166461243975,5.868373444721857,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212415,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Innlandet,61.439147777644699,10.441060410553726,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212423,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Viken,60.043864112215608,9.972647764726981,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212431,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Nordland,67.123475111553162,13.908069345866942,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212438,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Vestland,60.912912622641649,5.969116966557067,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212445,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Fredrikstad,59.215920902593609,10.871904161116440,Kommune,07:39-05/03-2023,2023-05-03 12:10:41.212453,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Drammen,59.709626124511423,10.166904323065197,Kommune,07:39-05/03-2023,2023-05-03 12:10:41.212460,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212468,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Viken,60.043864112215608,9.972647764726981,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212475,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212482,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212489,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Viken,60.043864112215608,9.972647764726981,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212496,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212504,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Viken,60.043864112215608,9.972647764726981,Fylke,07:39-05/03-2023,2023-05-03 12:10:41.212511,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Fredrikstad,59.215920902593609,10.871904161116440,Kommune,07:39-05/03-2023,2023-05-03 12:10:41.212518,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Drammen,59.709626124511423,10.166904323065197,Kommune,07:39-05/03-2023,2023-05-03 12:10:41.212525,https://www.nrk.no/osloogviken/horing-i-oslo-etter-pastander-om-juks-i-plan--og-bygningsetaten-1.16395433
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.212534,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.212541,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212548,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.212555,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.212562,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.212569,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.212577,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.212583,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.212590,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.212597,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212604,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Nord,60.438027142271977,11.581759132661137,Kommune,Unknown,2023-05-03 12:10:41.212611,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Tromsø,69.744523696815563,18.630325054634508,Kommune,Unknown,2023-05-03 12:10:41.212618,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Vadsø,70.170903684584474,29.873969545900934,Kommune,Unknown,2023-05-03 12:10:41.212626,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Alta,70.014256568790699,23.220220219555088,Kommune,Unknown,2023-05-03 12:10:41.212633,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Kirkenes,69.727147799999997,30.044897100000000,town,Unknown,2023-05-03 12:10:41.212640,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Svalbard,78.719851899999995,20.349332799999999,region,Unknown,2023-05-03 12:10:41.212647,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212653,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212661,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212668,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212675,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Tromsø,69.744523696815563,18.630325054634508,Kommune,Unknown,2023-05-03 12:10:41.212682,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Alta,70.014256568790699,23.220220219555088,Kommune,Unknown,2023-05-03 12:10:41.212689,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-starta-pa-verdensrekordforsok-1.16388068
+Agder,58.533697190544508,7.710662305515249,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212697,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Oslo,59.975392335668623,10.738759025694977,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212705,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212712,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212735,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212745,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212753,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Rogaland,59.035166461243975,5.868373444721857,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212761,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Innlandet,61.439147777644699,10.441060410553726,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212768,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Viken,60.043864112215608,9.972647764726981,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212776,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Nordland,67.123475111553162,13.908069345866942,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212784,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Vestland,60.912912622641649,5.969116966557067,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212791,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Nord,60.438027142271977,11.581759132661137,Kommune,10:43-10/28-2022,2023-05-03 12:10:41.212799,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Tromsø,69.744523696815563,18.630325054634508,Kommune,10:43-10/28-2022,2023-05-03 12:10:41.212807,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Alta,70.014256568790699,23.220220219555088,Kommune,10:43-10/28-2022,2023-05-03 12:10:41.212815,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Kirkenes,69.727147799999997,30.044897100000000,town,10:43-10/28-2022,2023-05-03 12:10:41.212822,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Svalbard,78.719851899999995,20.349332799999999,region,10:43-10/28-2022,2023-05-03 12:10:41.212830,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212838,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212845,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212853,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,10:43-10/28-2022,2023-05-03 12:10:41.212861,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Tromsø,69.744523696815563,18.630325054634508,Kommune,10:43-10/28-2022,2023-05-03 12:10:41.212869,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Alta,70.014256568790699,23.220220219555088,Kommune,10:43-10/28-2022,2023-05-03 12:10:41.212877,https://www.nrk.no/tromsogfinnmark/kristin-harila-gav-opp-spektakulaert-rekordforsok-_-avslorar-ukjent-drama-1.16153476
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.212885,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.212893,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.212900,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.212907,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.212915,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.212923,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.212930,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.212938,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.212945,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.212952,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.212960,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Nord,60.438027142271977,11.581759132661137,Kommune,Unknown,2023-05-03 12:10:41.212967,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Vik,61.034195504778687,6.550141757059272,Kommune,Unknown,2023-05-03 12:10:41.212974,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Tromsø,69.744523696815563,18.630325054634508,Kommune,Unknown,2023-05-03 12:10:41.212982,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Vadsø,70.170903684584474,29.873969545900934,Kommune,Unknown,2023-05-03 12:10:41.212989,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Alta,70.014256568790699,23.220220219555088,Kommune,Unknown,2023-05-03 12:10:41.212997,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Kirkenes,69.727147799999997,30.044897100000000,town,Unknown,2023-05-03 12:10:41.213004,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Svalbard,78.719851899999995,20.349332799999999,region,Unknown,2023-05-03 12:10:41.213033,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213041,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213071,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213081,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213089,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Tromsø,69.744523696815563,18.630325054634508,Kommune,Unknown,2023-05-03 12:10:41.213096,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Alta,70.014256568790699,23.220220219555088,Kommune,Unknown,2023-05-03 12:10:41.213105,https://www.nrk.no/tromsogfinnmark/kristin-harila-har-besteget-to-av-fjorten-fjell-1.16395811#1.16395811.1.16395811
+Agder,58.533697190544508,7.710662305515249,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213113,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Oslo,59.975392335668623,10.738759025694977,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213121,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213128,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213136,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213144,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213151,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Rogaland,59.035166461243975,5.868373444721857,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213160,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Innlandet,61.439147777644699,10.441060410553726,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213167,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Viken,60.043864112215608,9.972647764726981,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213174,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213182,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213189,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213198,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tromsø,69.744523696815563,18.630325054634508,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213206,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Porsgrunn,59.108284739685978,9.754099552978120,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213214,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Straume,60.358379700000000,5.123512900000000,town,11:38-05/03-2023,2023-05-03 12:10:41.213222,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213230,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213237,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213245,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213253,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213260,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213268,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Porsgrunn,59.108284739685978,9.754099552978120,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213276,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.213284,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.213291,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213297,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.213304,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.213311,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.213317,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.213324,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.213330,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.213337,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.213343,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.213349,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Molde,62.760510419088050,7.533390871603315,Kommune,Unknown,2023-05-03 12:10:41.213355,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Arendal,58.433344261923558,8.962140904974355,Kommune,Unknown,2023-05-03 12:10:41.213362,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Lillestrøm,59.947692755612231,11.206155470348477,Kommune,Unknown,2023-05-03 12:10:41.213369,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Egersund,58.451512100000002,6.000755400000000,town,Unknown,2023-05-03 12:10:41.213376,https://www.nrk.no/sport/sportsnyheter-1.14660227#1.16395854.1.16395854
+Agder,58.533697190544508,7.710662305515249,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213397,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Oslo,59.975392335668623,10.738759025694977,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213405,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213412,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213420,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213428,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213435,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Rogaland,59.035166461243975,5.868373444721857,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213443,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Innlandet,61.439147777644699,10.441060410553726,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213451,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Viken,60.043864112215608,9.972647764726981,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213458,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Nordland,67.123475111553162,13.908069345866942,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213465,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestland,60.912912622641649,5.969116966557067,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213473,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213480,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tromsø,69.744523696815563,18.630325054634508,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213488,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Porsgrunn,59.108284739685978,9.754099552978120,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213496,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Straume,60.358379700000000,5.123512900000000,town,11:38-05/03-2023,2023-05-03 12:10:41.213503,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213510,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213518,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213526,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213534,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,11:38-05/03-2023,2023-05-03 12:10:41.213541,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Tønsberg,59.370889777551575,10.390892038800919,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213549,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Porsgrunn,59.108284739685978,9.754099552978120,Kommune,11:38-05/03-2023,2023-05-03 12:10:41.213556,https://www.nrk.no/vestfoldogtelemark/lagmannsretten-mener-bevis-i-lanes-saken-likevel-kan-brukes-1.16394598
+Agder,58.533697190544508,7.710662305515249,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213565,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Oslo,59.975392335668623,10.738759025694977,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213573,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213580,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213588,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213596,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213604,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Rogaland,59.035166461243975,5.868373444721857,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213613,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Innlandet,61.439147777644699,10.441060410553726,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213620,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Viken,60.043864112215608,9.972647764726981,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213628,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Nordland,67.123475111553162,13.908069345866942,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213636,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Vestland,60.912912622641649,5.969116966557067,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213644,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Nord,60.438027142271977,11.581759132661137,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213651,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213659,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Bergen,60.359802393828737,5.370998003415741,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213667,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Ålesund,62.727362605814946,6.325934371724508,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213674,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Strand,59.031843321787839,6.023107147512158,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213682,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Kirkenes,69.727147799999997,30.044897100000000,town,06:00-05/03-2023,2023-05-03 12:10:41.213702,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Svalbard,78.719851899999995,20.349332799999999,region,06:00-05/03-2023,2023-05-03 12:10:41.213711,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Nord,60.438027142271977,11.581759132661137,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.213719,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-skip-over-sprengte-nord-stream-gassror-1.16390302
+Agder,58.533697190544508,7.710662305515249,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213730,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Oslo,59.975392335668623,10.738759025694977,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213737,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213744,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213751,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213759,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213766,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Rogaland,59.035166461243975,5.868373444721857,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213774,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Innlandet,61.439147777644699,10.441060410553726,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213781,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Viken,60.043864112215608,9.972647764726981,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213788,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Nordland,67.123475111553162,13.908069345866942,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213795,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Vestland,60.912912622641649,5.969116966557067,Fylke,07:20-05/03-2023,2023-05-03 12:10:41.213802,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Sør,60.223645867561061,11.753809128115085,Kommune,07:20-05/03-2023,2023-05-03 12:10:41.213809,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Kárášjohka,69.408686517533397,25.138484170585389,Kommune,07:20-05/03-2023,2023-05-03 12:10:41.213817,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Ålesund,62.727362605814946,6.325934371724508,Kommune,07:20-05/03-2023,2023-05-03 12:10:41.213828,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Porsanger,70.205502870611539,25.177527741453215,Kommune,07:20-05/03-2023,2023-05-03 12:10:41.213835,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Kárášjohka,69.408686517533397,25.138484170585389,Kommune,07:20-05/03-2023,2023-05-03 12:10:41.213843,https://www.nrk.no/sapmi/reintellingen_-sandra-borch-vil-kreve-betaling-fra-reineierne-1.16394421
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.213853,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.213859,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.213866,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.213872,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.213879,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.213886,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.213893,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.213899,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.213906,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.213912,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.213918,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Sør,60.223645867561061,11.753809128115085,Kommune,Unknown,2023-05-03 12:10:41.213925,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Kárášjohka,69.408686517533397,25.138484170585389,Kommune,Unknown,2023-05-03 12:10:41.213931,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Porsanger,70.205502870611539,25.177527741453215,Kommune,Unknown,2023-05-03 12:10:41.213938,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Kárášjohka,69.408686517533397,25.138484170585389,Kommune,Unknown,2023-05-03 12:10:41.213945,https://www.nrk.no/sapmi/borch-aigu-gaibidit-mavssu-badjeolbmuin_-1.16395475
+Agder,58.533697190544508,7.710662305515249,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213952,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Oslo,59.975392335668623,10.738759025694977,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213960,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213968,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213976,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213984,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.213992,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Rogaland,59.035166461243975,5.868373444721857,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.214002,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Innlandet,61.439147777644699,10.441060410553726,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.214009,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Viken,60.043864112215608,9.972647764726981,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.214031,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Nordland,67.123475111553162,13.908069345866942,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.214039,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Vestland,60.912912622641649,5.969116966557067,Fylke,06:00-05/03-2023,2023-05-03 12:10:41.214047,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Nord,60.438027142271977,11.581759132661137,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214055,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214062,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Bergen,60.359802393828737,5.370998003415741,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214070,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Ålesund,62.727362605814946,6.325934371724508,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214078,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Strand,59.031843321787839,6.023107147512158,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214086,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Kirkenes,69.727147799999997,30.044897100000000,town,06:00-05/03-2023,2023-05-03 12:10:41.214094,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Svalbard,78.719851899999995,20.349332799999999,region,06:00-05/03-2023,2023-05-03 12:10:41.214102,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Nord,60.438027142271977,11.581759132661137,Kommune,06:00-05/03-2023,2023-05-03 12:10:41.214110,https://www.nrk.no/norge/skyggekrigen_-radiomeldinger-avslorer-russisk-marine-over-saboterte-nord-stream-gassror-1.16390302
+Agder,58.533697190544508,7.710662305515249,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214118,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Oslo,59.975392335668623,10.738759025694977,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214125,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214132,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214139,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214147,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214155,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Rogaland,59.035166461243975,5.868373444721857,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214162,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Innlandet,61.439147777644699,10.441060410553726,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214169,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Viken,60.043864112215608,9.972647764726981,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214176,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Nordland,67.123475111553162,13.908069345866942,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214183,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Vestland,60.912912622641649,5.969116966557067,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214190,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Kvinesdal,58.510159849881134,6.977823556837069,Kommune,09:57-05/03-2023,2023-05-03 12:10:41.214198,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Flekkefjord,58.238420023461067,6.523838906004956,Kommune,09:57-05/03-2023,2023-05-03 12:10:41.214205,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Stor,61.589018853551003,10.784546125788877,Kommune,09:57-05/03-2023,2023-05-03 12:10:41.214213,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Agder,58.533697190544508,7.710662305515249,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214220,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Agder,58.533697190544508,7.710662305515249,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214227,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Flekkefjord,58.238420023461067,6.523838906004956,Kommune,09:57-05/03-2023,2023-05-03 12:10:41.214234,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Agder,58.533697190544508,7.710662305515249,Fylke,09:57-05/03-2023,2023-05-03 12:10:41.214241,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Kvinesdal,58.510159849881134,6.977823556837069,Kommune,09:57-05/03-2023,2023-05-03 12:10:41.214248,https://www.nrk.no/sorlandet/en-person-skrevet-ut-av-sykehuset-etter-russebilulykke-1.16395697
+Agder,58.533697190544508,7.710662305515249,Fylke,Unknown,2023-05-03 12:10:41.214256,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Oslo,59.975392335668623,10.738759025694977,Fylke,Unknown,2023-05-03 12:10:41.214262,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,Unknown,2023-05-03 12:10:41.214268,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,Unknown,2023-05-03 12:10:41.214275,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,Unknown,2023-05-03 12:10:41.214282,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,Unknown,2023-05-03 12:10:41.214288,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Rogaland,59.035166461243975,5.868373444721857,Fylke,Unknown,2023-05-03 12:10:41.214294,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Innlandet,61.439147777644699,10.441060410553726,Fylke,Unknown,2023-05-03 12:10:41.214301,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Viken,60.043864112215608,9.972647764726981,Fylke,Unknown,2023-05-03 12:10:41.214307,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Nordland,67.123475111553162,13.908069345866942,Fylke,Unknown,2023-05-03 12:10:41.214313,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Vestland,60.912912622641649,5.969116966557067,Fylke,Unknown,2023-05-03 12:10:41.214319,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Midt,59.429840553102096,9.135408642107958,Kommune,Unknown,2023-05-03 12:10:41.214326,https://www.nrk.no/mat/innbakt-svinekjott-i-sursot-saus-1.16290644
+Agder,58.533697190544508,7.710662305515249,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214347,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Oslo,59.975392335668623,10.738759025694977,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214355,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214363,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214370,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214378,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214386,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Rogaland,59.035166461243975,5.868373444721857,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214394,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Innlandet,61.439147777644699,10.441060410553726,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214401,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Viken,60.043864112215608,9.972647764726981,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214409,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Nordland,67.123475111553162,13.908069345866942,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214416,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Vestland,60.912912622641649,5.969116966557067,Fylke,05:25-05/03-2023,2023-05-03 12:10:41.214424,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,05:25-05/03-2023,2023-05-03 12:10:41.214431,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Molde,62.760510419088050,7.533390871603315,Kommune,05:25-05/03-2023,2023-05-03 12:10:41.214439,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Sande,62.279613966135571,5.318515671452649,Kommune,05:25-05/03-2023,2023-05-03 12:10:41.214447,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Lillestrøm,59.947692755612231,11.206155470348477,Kommune,05:25-05/03-2023,2023-05-03 12:10:41.214454,https://www.nrk.no/sport/varsku-om-_skam_-og__tabu_-i-fotballen_-_-dei-fryktar-for-plassen-pa-laget-1.16385004
+Agder,58.533697190544508,7.710662305515249,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214463,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Oslo,59.975392335668623,10.738759025694977,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214470,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Troms og Finnmark,69.987686441275571,23.443274091170696,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214477,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Møre og Romsdal,62.709912278943143,7.201969939935447,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214485,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Vestfold og Telemark,59.417662044070866,8.914348167088367,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214493,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Trøndelag,63.911749884246412,10.899119444670195,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214500,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Rogaland,59.035166461243975,5.868373444721857,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214507,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Innlandet,61.439147777644699,10.441060410553726,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214514,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Viken,60.043864112215608,9.972647764726981,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214522,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Nordland,67.123475111553162,13.908069345866942,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214529,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Vestland,60.912912622641649,5.969116966557067,Fylke,08:43-05/03-2023,2023-05-03 12:10:41.214536,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Nord,60.438027142271977,11.581759132661137,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214543,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Sandefjord,59.103903950749000,10.131579909716221,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214550,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Bergen,60.359802393828737,5.370998003415741,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214557,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Gjesdal,58.813485212441215,6.251592025305444,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214565,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Stavanger,59.139791592364084,5.785538371545174,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214572,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Ålesund,62.727362605814946,6.325934371724508,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214579,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Midt,59.429840553102096,9.135408642107958,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214586,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
+Stor,61.589018853551003,10.784546125788877,Kommune,08:43-05/03-2023,2023-05-03 12:10:41.214594,https://www.nrk.no/norge/sykehusene-far-6_2-milliarder-kroner-mer-i-revidert-budsjett-1.16395548
